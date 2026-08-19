@@ -1,0 +1,778 @@
+customer_id,recency,frequency,monetary,customer_name,region,city,age,gender,acquisition_channel,R_score,F_score,M_score,RFM_score,rfm_segment,cluster,cluster_segment
+CUST0001,88,4,7136.6900000000005,Nisha Desai,South,Chennai,28,Male,Social Media,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0002,50,3,5443.12,Ramesh Kapoor,East,Patna,32,Female,Email Campaign,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0003,54,38,326648.38,Krishna Gupta,South,Bengaluru,36,Male,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0004,52,4,20676.21,Tara Menon,North,Chandigarh,24,Male,Organic Search,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0005,277,1,7585.8,Ananya Nair,East,Bhubaneswar,45,Female,Organic Search,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0006,632,1,1043.56,Swati Iyer,North,Lucknow,60,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0007,10,20,284783.88,Karthik Verma,North,Jaipur,22,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0008,87,12,177094.39,Vikram Pillai,West,Mumbai,22,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0009,200,9,70395.38,Sanjay Rao,South,Hyderabad,47,Male,Paid Ads,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0010,44,16,223759.09999999998,Vivaan Sharma,East,Patna,49,Male,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0011,26,7,68941.7,Diya Pillai,North,Lucknow,25,Male,Email Campaign,4,3,3,10,Champions,2,Loyal Customers
+CUST0012,3,7,24238.98,Anil Das,North,Delhi,27,Male,Paid Ads,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0013,651,1,5311.46,Manish Kumar,East,Bhubaneswar,55,Male,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0014,55,7,30590.85,Naveen Bose,North,Chandigarh,64,Female,Social Media,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0015,136,9,248722.29,Meera Kapoor,West,Surat,49,Female,Email Campaign,2,3,4,9,Loyal Customers,1,Champions
+CUST0016,121,3,9979.900000000001,Aditya Reddy,West,Pune,45,Male,Organic Search,2,2,1,5,At Risk,0,At Risk
+CUST0017,51,15,225856.19999999998,Reyansh Patel,West,Mumbai,34,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0018,23,31,355434.09,Nisha Mukherjee,West,Surat,48,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0019,130,13,71292.98,Vihaan Malhotra,North,Lucknow,25,Female,Email Campaign,2,4,3,9,Loyal Customers,1,Champions
+CUST0020,58,8,43485.17,Ishaan Verma,East,Bhubaneswar,57,Female,Organic Search,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0021,210,6,110929.94,Zara Kapoor,East,Bhubaneswar,42,Female,Email Campaign,2,3,4,9,Loyal Customers,2,Loyal Customers
+CUST0022,301,2,7704.620000000001,Reyansh Pillai,East,Guwahati,26,Male,Email Campaign,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0024,150,6,19559.309999999998,Divya Malhotra,South,Kochi,32,Female,Paid Ads,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0025,98,10,87551.01000000001,Riya Nair,East,Guwahati,20,Male,Organic Search,3,3,3,9,Loyal Customers,1,Champions
+CUST0026,120,3,139129.78,Swati Nair,South,Chennai,53,Female,Email Campaign,2,2,4,8,Loyal Customers,2,Loyal Customers
+CUST0027,25,17,238854.45,Vivaan Rao,South,Kochi,21,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0028,627,1,393.48,Vihaan Mukherjee,West,Ahmedabad,31,Male,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0029,387,4,24867.690000000002,Deepak Pillai,South,Bengaluru,58,Male,Organic Search,1,2,2,5,At Risk,3,Potential Loyalists
+CUST0030,130,12,177638.52,Sneha Kumar,North,Chandigarh,58,Male,Social Media,2,4,4,10,Champions,1,Champions
+CUST0031,12,4,100474.4,Kiran Malhotra,South,Bengaluru,42,Female,Paid Ads,4,2,3,9,Loyal Customers,2,Loyal Customers
+CUST0032,506,1,4406.03,Neha Bose,West,Ahmedabad,27,Male,Organic Search,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0033,280,4,15814.54,Meera Singh,South,Hyderabad,38,Male,Email Campaign,1,2,1,4,At Risk,0,At Risk
+CUST0034,236,5,28254.420000000002,Kavya Singh,North,Lucknow,53,Male,Organic Search,1,2,2,5,At Risk,2,Loyal Customers
+CUST0035,159,8,37892.15,Rahul Bose,North,Lucknow,29,Male,Organic Search,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0036,126,10,86230.29000000001,Saanvi Kapoor,North,Lucknow,44,Male,Organic Search,2,3,3,8,Loyal Customers,1,Champions
+CUST0037,322,5,25254.32,Vikram Chopra,West,Surat,57,Male,Social Media,1,2,2,5,At Risk,2,Loyal Customers
+CUST0039,34,41,350352.13,Aarav Gupta,East,Bhubaneswar,30,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0040,324,1,2225.68,Ishaan Sharma,West,Ahmedabad,49,Male,Email Campaign,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0041,29,17,167457.46,Krishna Menon,North,Lucknow,48,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0042,222,4,59783.369999999995,Riya Singh,North,Chandigarh,33,Male,Email Campaign,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0043,89,23,297228.83999999997,Divya Iyer,West,Ahmedabad,49,Female,Email Campaign,3,4,4,11,Champions,1,Champions
+CUST0045,257,5,27274.93,Nisha Patel,West,Surat,51,Male,Paid Ads,1,2,2,5,At Risk,2,Loyal Customers
+CUST0046,231,1,37374.29,Naveen Gupta,West,Surat,28,Female,Referral,2,1,2,5,At Risk,0,At Risk
+CUST0047,675,1,10870.45,Ishaan Singh,North,Delhi,27,Male,Organic Search,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0048,307,6,70981.58,Diya Verma,East,Patna,32,Male,Referral,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0050,91,10,114445.34,Suresh Reddy,East,Kolkata,57,Female,Organic Search,3,3,4,10,Champions,1,Champions
+CUST0051,59,2,7252.79,Divya Pillai,North,Lucknow,35,Female,Email Campaign,3,1,1,5,At Risk,0,At Risk
+CUST0052,232,3,28075.920000000002,Swati Iyer,West,Mumbai,26,Male,Organic Search,2,2,2,6,Potential Loyalists,0,At Risk
+CUST0053,72,11,186886.06,Aarav Iyer,North,Delhi,42,Female,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0054,599,2,26709.34,Lakshmi Kapoor,North,Jaipur,57,Male,Social Media,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0055,8,7,24962.47,Kavya Iyer,North,Jaipur,31,Male,Referral,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0056,169,4,35670.94,Aarav Reddy,West,Mumbai,42,Female,Social Media,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0057,108,11,80232.8,Deepak Malhotra,West,Surat,39,Male,Organic Search,3,4,3,10,Champions,1,Champions
+CUST0058,250,1,2661.15,Nisha Patel,West,Mumbai,47,Female,Email Campaign,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0059,33,14,49069.7,Meera Kapoor,West,Pune,37,Female,Social Media,4,4,2,10,Champions,1,Champions
+CUST0060,7,24,128717.94,Deepak Kumar,East,Guwahati,38,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0061,248,11,259778.19,Isha Joshi,East,Guwahati,61,Male,Paid Ads,1,4,4,9,Loyal Customers,1,Champions
+CUST0062,189,12,125585.85999999999,Pooja Gupta,South,Kochi,49,Female,Organic Search,2,4,4,10,Champions,1,Champions
+CUST0063,310,6,46945.2,Pooja Nair,West,Pune,63,Male,Email Campaign,1,3,2,6,Potential Loyalists,2,Loyal Customers
+CUST0064,106,7,21825.55,Sanjay Reddy,East,Kolkata,38,Female,Social Media,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0065,216,4,31589.29,Suresh Gupta,North,Lucknow,52,Female,Social Media,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0066,67,3,39975.39000000001,Meera Menon,West,Surat,49,Male,Email Campaign,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0067,32,4,44194.48,Ramesh Nair,South,Chennai,47,Female,Organic Search,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0068,84,19,204298.80000000002,Isha Gupta,South,Bengaluru,56,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0069,235,3,126465.76999999999,Karthik Verma,South,Hyderabad,29,Male,Social Media,1,2,4,7,Potential Loyalists,2,Loyal Customers
+CUST0070,95,14,72725.77,Sai Pillai,North,Jaipur,58,Female,Paid Ads,3,4,3,10,Champions,1,Champions
+CUST0071,83,4,15375.43,Zara Menon,East,Patna,64,Male,Referral,3,2,1,6,Potential Loyalists,2,Loyal Customers
+CUST0072,118,4,6368.02,Naveen Gupta,North,Chandigarh,35,Female,Organic Search,2,2,1,5,At Risk,0,At Risk
+CUST0073,273,2,41842.100000000006,Shreya Sharma,West,Ahmedabad,38,Female,Referral,1,1,2,4,At Risk,0,At Risk
+CUST0074,279,1,5231.45,Manish Desai,South,Chennai,30,Male,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0075,12,19,199091.73,Isha Patel,North,Jaipur,38,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0076,18,16,176051.71,Aditya Gupta,North,Jaipur,25,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0077,224,6,26243.989999999998,Sai Singh,East,Kolkata,63,Male,Organic Search,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0078,63,6,45779.47,Manish Patel,East,Kolkata,57,Female,Email Campaign,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0079,3,7,137179.17,Lakshmi Sharma,South,Chennai,63,Male,Paid Ads,4,3,4,11,Champions,1,Champions
+CUST0080,42,8,50440.19,Vikram Kapoor,North,Lucknow,24,Female,Paid Ads,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0081,115,3,12587.23,Pooja Patel,North,Lucknow,40,Female,Email Campaign,2,2,1,5,At Risk,0,At Risk
+CUST0082,257,1,3023.62,Diya Gupta,East,Guwahati,61,Female,Email Campaign,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0083,93,4,93025.57,Vivaan Iyer,North,Lucknow,49,Male,Referral,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0084,72,12,102206.25,Lakshmi Das,North,Chandigarh,28,Female,Email Campaign,3,4,3,10,Champions,1,Champions
+CUST0085,126,29,229090.87,Riya Das,North,Jaipur,39,Female,Social Media,2,4,4,10,Champions,1,Champions
+CUST0087,28,9,65753.12,Naveen Reddy,South,Chennai,60,Male,Email Campaign,4,3,3,10,Champions,1,Champions
+CUST0088,269,1,5998.73,Pooja Sharma,West,Pune,42,Male,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0089,78,6,66725.84,Aarav Joshi,South,Chennai,39,Female,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0090,252,1,52165.51,Vivaan Pillai,West,Surat,45,Female,Social Media,1,1,3,5,At Risk,0,At Risk
+CUST0091,76,3,114158.11,Deepak Rao,North,Delhi,46,Male,Social Media,3,2,4,9,Loyal Customers,2,Loyal Customers
+CUST0092,107,4,66047.79000000001,Pooja Nair,South,Hyderabad,30,Female,Referral,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0093,196,1,3071.32,Ananya Das,West,Ahmedabad,35,Male,Social Media,2,1,1,4,At Risk,0,At Risk
+CUST0094,57,8,85367.45999999999,Manisha Reddy,East,Guwahati,19,Male,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0095,11,9,55378.6,Sneha Rao,East,Kolkata,46,Female,Referral,4,3,3,10,Champions,1,Champions
+CUST0096,40,8,65372.92,Karthik Menon,South,Kochi,38,Female,Social Media,4,3,3,10,Champions,2,Loyal Customers
+CUST0097,29,17,103143.36,Priya Sharma,South,Chennai,32,Male,Paid Ads,4,4,3,11,Champions,1,Champions
+CUST0098,348,5,100806.2,Ishaan Rao,North,Chandigarh,44,Male,Social Media,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0099,116,3,13899.37,Priya Iyer,South,Hyderabad,48,Female,Social Media,2,2,1,5,At Risk,0,At Risk
+CUST0100,77,6,40451.0,Zara Nair,North,Jaipur,32,Male,Social Media,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0101,407,1,18950.32,Tara Iyer,North,Chandigarh,40,Male,Paid Ads,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0102,527,3,14737.51,Tara Desai,East,Patna,41,Male,Organic Search,1,2,1,4,At Risk,3,Potential Loyalists
+CUST0104,489,2,22771.739999999998,Shreya Singh,West,Surat,30,Female,Referral,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0105,27,10,99322.98000000001,Nisha Mukherjee,East,Patna,39,Male,Referral,4,3,3,10,Champions,1,Champions
+CUST0106,21,3,35864.42,Swati Sharma,East,Kolkata,60,Female,Paid Ads,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0107,285,5,63300.88,Ananya Mukherjee,South,Bengaluru,54,Female,Email Campaign,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0109,98,8,55781.32,Divya Gupta,West,Pune,20,Female,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0110,430,2,3272.3199999999997,Priya Bose,South,Chennai,36,Female,Organic Search,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0111,182,8,178611.75,Vivaan Sharma,West,Ahmedabad,40,Male,Paid Ads,2,3,4,9,Loyal Customers,1,Champions
+CUST0112,141,6,91567.91,Diya Reddy,East,Bhubaneswar,46,Male,Paid Ads,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0113,268,3,14036.939999999999,Lakshmi Patel,West,Pune,47,Female,Email Campaign,1,2,1,4,At Risk,0,At Risk
+CUST0114,93,8,109039.37000000001,Divya Joshi,South,Chennai,56,Female,Email Campaign,3,3,4,10,Champions,1,Champions
+CUST0115,80,1,776.33,Priya Iyer,North,Lucknow,61,Female,Paid Ads,3,1,1,5,At Risk,0,At Risk
+CUST0116,96,5,68478.21,Zara Sharma,West,Pune,64,Male,Referral,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0117,30,3,20200.04,Vikram Desai,West,Pune,42,Female,Organic Search,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0118,48,18,196157.6,Ananya Das,South,Chennai,54,Male,Social Media,3,4,4,11,Champions,1,Champions
+CUST0119,207,1,3413.36,Krishna Nair,South,Kochi,64,Male,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0120,26,11,90189.93,Manisha Singh,West,Pune,25,Female,Social Media,4,4,3,11,Champions,1,Champions
+CUST0121,219,3,27278.17,Zara Iyer,East,Guwahati,59,Male,Referral,2,2,2,6,Potential Loyalists,0,At Risk
+CUST0122,562,1,3762.62,Anil Iyer,West,Surat,33,Male,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0123,5,6,19475.67,Anil Mukherjee,South,Hyderabad,25,Male,Social Media,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0124,85,15,169689.22999999998,Saanvi Verma,North,Jaipur,18,Male,Referral,3,4,4,11,Champions,1,Champions
+CUST0126,124,3,8031.92,Kiran Sharma,East,Bhubaneswar,22,Female,Referral,2,2,1,5,At Risk,0,At Risk
+CUST0127,227,2,9281.52,Vihaan Sharma,West,Ahmedabad,20,Male,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0128,225,2,57297.42,Kavya Bose,North,Lucknow,18,Female,Paid Ads,2,1,3,6,Potential Loyalists,2,Loyal Customers
+CUST0129,567,1,3394.21,Zara Singh,West,Pune,21,Female,Organic Search,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0130,10,10,68732.99,Reyansh Iyer,South,Bengaluru,57,Female,Social Media,4,3,3,10,Champions,1,Champions
+CUST0131,665,1,3123.62,Riya Sharma,North,Jaipur,52,Male,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0132,402,2,20165.47,Diya Joshi,East,Bhubaneswar,49,Female,Paid Ads,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0133,115,6,20517.36,Karthik Malhotra,South,Hyderabad,59,Female,Referral,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0134,24,5,23426.66,Sanjay Rao,East,Kolkata,51,Female,Paid Ads,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0137,61,10,121555.76999999999,Rahul Sharma,East,Guwahati,27,Male,Paid Ads,3,3,4,10,Champions,1,Champions
+CUST0138,189,4,17290.08,Naveen Kapoor,East,Guwahati,38,Female,Referral,2,2,2,6,Potential Loyalists,0,At Risk
+CUST0139,188,10,113906.8,Shreya Reddy,South,Bengaluru,63,Female,Paid Ads,2,3,4,9,Loyal Customers,1,Champions
+CUST0141,82,10,64116.62,Divya Das,South,Chennai,44,Female,Email Campaign,3,3,3,9,Loyal Customers,1,Champions
+CUST0142,130,6,64742.19,Riya Pillai,South,Kochi,44,Male,Social Media,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0143,247,5,31809.059999999998,Naveen Malhotra,South,Hyderabad,19,Female,Social Media,1,2,2,5,At Risk,2,Loyal Customers
+CUST0144,6,10,119603.3,Sai Iyer,South,Bengaluru,58,Male,Organic Search,4,3,4,11,Champions,1,Champions
+CUST0145,60,7,86594.96,Lakshmi Das,North,Lucknow,30,Male,Email Campaign,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0146,92,2,31059.98,Neha Iyer,South,Chennai,26,Male,Social Media,3,1,2,6,Potential Loyalists,2,Loyal Customers
+CUST0148,77,4,87008.09,Rahul Sharma,East,Patna,39,Female,Referral,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0149,293,2,18795.07,Aditya Mukherjee,West,Surat,59,Male,Paid Ads,1,1,2,4,At Risk,0,At Risk
+CUST0150,71,4,21004.53,Anil Kumar,North,Delhi,43,Male,Referral,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0151,16,7,19517.12,Neha Iyer,West,Surat,29,Female,Social Media,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0152,244,4,38633.84,Swati Malhotra,East,Patna,34,Female,Organic Search,1,2,2,5,At Risk,2,Loyal Customers
+CUST0153,203,6,18440.03,Vikram Mukherjee,West,Mumbai,31,Female,Paid Ads,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0154,22,9,38207.3,Pooja Kapoor,North,Chandigarh,31,Female,Paid Ads,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0155,138,11,103121.98000000001,Karthik Verma,South,Chennai,51,Female,Paid Ads,2,4,3,9,Loyal Customers,1,Champions
+CUST0156,725,1,9167.36,Manish Kumar,West,Pune,37,Male,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0157,96,16,307023.35,Vivaan Das,North,Lucknow,28,Male,Social Media,3,4,4,11,Champions,1,Champions
+CUST0158,373,3,11014.67,Swati Sharma,North,Lucknow,33,Female,Paid Ads,1,2,1,4,At Risk,3,Potential Loyalists
+CUST0159,51,10,131596.79,Ishaan Menon,East,Guwahati,48,Male,Paid Ads,3,3,4,10,Champions,1,Champions
+CUST0160,150,13,58881.42,Nisha Kumar,East,Bhubaneswar,23,Female,Organic Search,2,4,3,9,Loyal Customers,1,Champions
+CUST0161,91,15,98717.37,Deepak Iyer,West,Pune,36,Male,Organic Search,3,4,3,10,Champions,1,Champions
+CUST0162,262,6,26778.8,Anil Chopra,South,Bengaluru,54,Male,Social Media,1,3,2,6,Potential Loyalists,2,Loyal Customers
+CUST0164,158,5,67908.84999999999,Zara Sharma,West,Surat,64,Female,Email Campaign,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0165,91,6,50470.58,Krishna Malhotra,North,Lucknow,21,Female,Organic Search,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0166,150,7,131817.8,Priya Malhotra,North,Delhi,37,Female,Email Campaign,2,3,4,9,Loyal Customers,2,Loyal Customers
+CUST0167,6,9,81362.59,Diya Joshi,South,Chennai,27,Male,Referral,4,3,3,10,Champions,1,Champions
+CUST0168,181,2,3746.71,Suresh Kapoor,South,Chennai,41,Male,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0169,376,1,19715.72,Naveen Verma,West,Ahmedabad,52,Female,Paid Ads,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0170,331,1,1949.05,Vivaan Joshi,South,Hyderabad,43,Female,Email Campaign,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0171,574,1,39008.25,Anil Das,South,Hyderabad,54,Male,Social Media,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0172,85,7,109507.35999999999,Sai Kapoor,West,Mumbai,55,Female,Referral,3,3,4,10,Champions,2,Loyal Customers
+CUST0173,11,10,59296.0,Lakshmi Sharma,South,Kochi,38,Male,Paid Ads,4,3,3,10,Champions,1,Champions
+CUST0174,5,8,97179.37,Krishna Pillai,East,Patna,57,Male,Email Campaign,4,3,3,10,Champions,1,Champions
+CUST0175,10,14,141881.79,Arjun Gupta,North,Lucknow,56,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0176,5,14,194071.49,Vihaan Rao,North,Jaipur,38,Female,Referral,4,4,4,12,Champions,1,Champions
+CUST0177,215,5,77385.0,Pooja Desai,North,Chandigarh,27,Female,Paid Ads,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0179,189,8,19284.04,Divya Singh,West,Pune,63,Female,Referral,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0180,123,2,11092.02,Priya Chopra,North,Jaipur,21,Male,Referral,2,1,1,4,At Risk,0,At Risk
+CUST0181,593,3,69208.75,Sanjay Joshi,North,Jaipur,62,Male,Organic Search,1,2,3,6,Potential Loyalists,3,Potential Loyalists
+CUST0182,103,11,123256.79,Riya Joshi,North,Delhi,37,Male,Referral,3,4,4,11,Champions,1,Champions
+CUST0184,454,1,73741.9,Deepak Patel,East,Guwahati,24,Male,Email Campaign,1,1,3,5,At Risk,3,Potential Loyalists
+CUST0185,138,2,18577.64,Diya Sharma,North,Jaipur,21,Female,Email Campaign,2,1,2,5,At Risk,0,At Risk
+CUST0187,8,13,127918.20000000001,Sneha Bose,West,Ahmedabad,31,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0189,243,1,796.1,Aarav Bose,North,Lucknow,41,Male,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0190,73,3,10064.87,Nisha Reddy,South,Hyderabad,54,Male,Paid Ads,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0191,40,5,21840.08,Karthik Iyer,South,Kochi,33,Male,Organic Search,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0192,32,19,141006.82,Diya Bose,West,Mumbai,21,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0194,7,7,157552.72,Naveen Reddy,East,Bhubaneswar,51,Female,Email Campaign,4,3,4,11,Champions,1,Champions
+CUST0195,50,9,110908.85000000002,Sanjay Malhotra,South,Chennai,47,Female,Paid Ads,3,3,4,10,Champions,1,Champions
+CUST0196,74,13,151927.68,Arjun Pillai,South,Kochi,35,Male,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0197,119,8,73185.77,Priya Bose,South,Hyderabad,36,Female,Social Media,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0198,33,7,37014.2,Rahul Gupta,North,Chandigarh,48,Female,Organic Search,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0199,63,2,56248.28,Kiran Sharma,North,Lucknow,36,Female,Email Campaign,3,1,3,7,Potential Loyalists,2,Loyal Customers
+CUST0200,186,5,51513.46,Sanjay Reddy,East,Patna,63,Female,Social Media,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0201,38,3,61436.25,Suresh Kumar,East,Guwahati,36,Male,Referral,4,2,3,9,Loyal Customers,2,Loyal Customers
+CUST0202,98,20,248896.61,Arjun Nair,North,Lucknow,39,Male,Referral,3,4,4,11,Champions,1,Champions
+CUST0203,279,1,2277.75,Sneha Desai,East,Kolkata,41,Male,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0204,522,2,7085.24,Neha Kumar,North,Delhi,62,Male,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0205,256,4,19956.399999999998,Tara Sharma,West,Ahmedabad,29,Female,Social Media,1,2,2,5,At Risk,0,At Risk
+CUST0206,575,2,21627.9,Arjun Chopra,South,Kochi,47,Male,Email Campaign,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0208,16,20,233520.65,Vikram Bose,East,Kolkata,48,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0209,53,10,51281.64,Vivaan Das,North,Lucknow,53,Male,Email Campaign,3,3,3,9,Loyal Customers,1,Champions
+CUST0210,89,6,80098.09,Naveen Desai,North,Jaipur,36,Male,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0211,133,8,27797.59,Vikram Pillai,East,Kolkata,62,Female,Social Media,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0212,186,3,20645.5,Divya Sharma,North,Chandigarh,53,Female,Email Campaign,2,2,2,6,Potential Loyalists,0,At Risk
+CUST0214,323,2,31584.56,Lakshmi Pillai,South,Bengaluru,50,Male,Organic Search,1,1,2,4,At Risk,0,At Risk
+CUST0215,182,3,16682.42,Aditya Sharma,East,Patna,35,Male,Social Media,2,2,1,5,At Risk,0,At Risk
+CUST0216,104,6,37186.67,Shreya Singh,East,Guwahati,45,Male,Referral,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0217,211,5,12851.57,Rohan Menon,North,Jaipur,64,Male,Social Media,2,2,1,5,At Risk,0,At Risk
+CUST0219,199,5,137060.44,Diya Malhotra,West,Ahmedabad,62,Female,Email Campaign,2,2,4,8,Loyal Customers,2,Loyal Customers
+CUST0220,38,18,181795.38999999998,Vivaan Joshi,North,Chandigarh,50,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0221,125,12,66872.15,Divya Das,North,Lucknow,34,Female,Social Media,2,4,3,9,Loyal Customers,1,Champions
+CUST0222,62,13,51931.14,Deepak Singh,North,Jaipur,23,Female,Referral,3,4,3,10,Champions,1,Champions
+CUST0223,79,12,92674.39,Ramesh Kumar,North,Chandigarh,21,Male,Email Campaign,3,4,3,10,Champions,1,Champions
+CUST0224,214,3,12003.0,Deepak Verma,West,Ahmedabad,37,Male,Social Media,2,2,1,5,At Risk,0,At Risk
+CUST0225,93,10,239239.46,Reyansh Nair,North,Lucknow,64,Female,Paid Ads,3,3,4,10,Champions,1,Champions
+CUST0226,309,3,4910.76,Ananya Nair,East,Kolkata,44,Male,Organic Search,1,2,1,4,At Risk,0,At Risk
+CUST0227,99,6,71369.11,Anil Nair,West,Ahmedabad,32,Female,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0228,79,8,106659.67,Rohan Reddy,South,Kochi,23,Female,Social Media,3,3,4,10,Champions,1,Champions
+CUST0230,303,3,11778.8,Divya Bose,East,Patna,31,Female,Social Media,1,2,1,4,At Risk,0,At Risk
+CUST0231,10,26,242780.02,Kiran Mukherjee,East,Bhubaneswar,28,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0232,356,1,1257.6,Nisha Reddy,West,Mumbai,56,Female,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0233,50,10,58594.36,Diya Das,South,Bengaluru,26,Female,Email Campaign,3,3,3,9,Loyal Customers,1,Champions
+CUST0235,118,7,64359.85,Sanjay Das,South,Chennai,33,Male,Paid Ads,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0236,241,7,68908.87,Zara Bose,South,Kochi,22,Male,Social Media,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0237,92,10,53118.149999999994,Anil Chopra,South,Bengaluru,27,Female,Organic Search,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0238,132,10,41419.2,Tara Das,North,Jaipur,20,Female,Referral,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0239,1,16,111703.7,Kiran Pillai,East,Patna,30,Male,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0240,14,9,70258.33,Tara Pillai,North,Chandigarh,60,Male,Email Campaign,4,3,3,10,Champions,1,Champions
+CUST0241,704,1,3516.59,Ishaan Gupta,South,Kochi,47,Female,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0242,65,15,200964.19,Naveen Malhotra,West,Pune,62,Female,Social Media,3,4,4,11,Champions,1,Champions
+CUST0243,482,1,6090.4,Neha Desai,West,Surat,23,Female,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0244,189,18,121812.31,Tara Kapoor,South,Chennai,34,Female,Paid Ads,2,4,4,10,Champions,1,Champions
+CUST0245,110,4,11683.72,Priya Reddy,South,Kochi,62,Male,Email Campaign,2,2,1,5,At Risk,0,At Risk
+CUST0246,298,2,9617.599999999999,Divya Pillai,West,Mumbai,36,Male,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0247,84,11,96873.98,Anil Desai,North,Chandigarh,59,Female,Organic Search,3,4,3,10,Champions,1,Champions
+CUST0248,295,2,41768.5,Rahul Nair,North,Jaipur,52,Male,Referral,1,1,2,4,At Risk,0,At Risk
+CUST0249,226,2,74796.25,Suresh Bose,South,Bengaluru,63,Male,Social Media,2,1,3,6,Potential Loyalists,2,Loyal Customers
+CUST0250,334,1,3067.65,Nisha Chopra,North,Jaipur,43,Male,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0251,358,1,1782.44,Nisha Malhotra,West,Mumbai,22,Female,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0252,120,2,8305.93,Neha Reddy,North,Delhi,46,Female,Referral,2,1,1,4,At Risk,0,At Risk
+CUST0254,262,6,36750.49,Ananya Mukherjee,West,Mumbai,37,Male,Social Media,1,3,2,6,Potential Loyalists,2,Loyal Customers
+CUST0256,68,15,326430.27,Rohan Pillai,East,Patna,27,Female,Social Media,3,4,4,11,Champions,1,Champions
+CUST0257,30,1,925.85,Riya Rao,West,Ahmedabad,22,Male,Email Campaign,4,1,1,6,Potential Loyalists,0,At Risk
+CUST0258,9,20,187633.01,Reyansh Malhotra,West,Mumbai,53,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0259,139,15,114784.84999999999,Isha Singh,East,Patna,23,Male,Paid Ads,2,4,4,10,Champions,1,Champions
+CUST0260,292,1,4080.14,Ishaan Mukherjee,East,Guwahati,43,Female,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0261,43,6,77423.22,Manish Verma,West,Mumbai,21,Male,Organic Search,4,3,3,10,Champions,2,Loyal Customers
+CUST0262,49,15,174499.09,Arjun Reddy,East,Patna,56,Male,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0263,28,26,287751.61,Manisha Joshi,South,Chennai,56,Female,Referral,4,4,4,12,Champions,1,Champions
+CUST0264,105,7,124448.5,Krishna Bose,South,Kochi,52,Female,Organic Search,3,3,4,10,Champions,2,Loyal Customers
+CUST0266,118,9,74436.31,Riya Gupta,West,Ahmedabad,41,Female,Social Media,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0267,168,5,41408.2,Anil Chopra,East,Bhubaneswar,53,Male,Email Campaign,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0268,130,6,132144.81,Vihaan Nair,East,Kolkata,23,Female,Paid Ads,2,3,4,9,Loyal Customers,2,Loyal Customers
+CUST0269,205,2,25581.739999999998,Sai Joshi,North,Jaipur,58,Male,Social Media,2,1,2,5,At Risk,0,At Risk
+CUST0270,11,15,153669.91999999998,Nisha Kumar,North,Chandigarh,63,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0271,17,23,219953.63,Deepak Joshi,East,Guwahati,61,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0272,70,3,39772.159999999996,Nisha Iyer,East,Patna,48,Female,Email Campaign,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0273,190,2,17790.36,Isha Mukherjee,East,Kolkata,37,Female,Referral,2,1,2,5,At Risk,0,At Risk
+CUST0274,214,2,18610.300000000003,Naveen Desai,West,Pune,41,Female,Email Campaign,2,1,2,5,At Risk,0,At Risk
+CUST0275,134,11,231113.15000000002,Naveen Singh,East,Guwahati,42,Female,Organic Search,2,4,4,10,Champions,1,Champions
+CUST0276,30,6,61685.579999999994,Nisha Sharma,North,Jaipur,53,Female,Social Media,4,3,3,10,Champions,2,Loyal Customers
+CUST0277,55,6,78137.86,Aditya Chopra,West,Mumbai,38,Male,Organic Search,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0278,569,2,5237.4,Naveen Das,East,Guwahati,47,Male,Organic Search,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0279,255,4,11244.76,Anil Sharma,North,Chandigarh,41,Female,Paid Ads,1,2,1,4,At Risk,0,At Risk
+CUST0280,183,2,47697.07,Manisha Rao,West,Mumbai,61,Male,Social Media,2,1,2,5,At Risk,2,Loyal Customers
+CUST0281,44,4,10261.09,Pooja Chopra,East,Patna,59,Female,Organic Search,4,2,1,7,Potential Loyalists,0,At Risk
+CUST0282,30,7,45664.41,Rahul Bose,East,Guwahati,47,Female,Referral,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0283,44,36,570198.13,Rahul Menon,East,Kolkata,39,Male,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0284,121,22,296427.64,Lakshmi Nair,West,Pune,45,Female,Referral,2,4,4,10,Champions,1,Champions
+CUST0285,9,20,67812.66,Divya Joshi,North,Jaipur,24,Male,Paid Ads,4,4,3,11,Champions,1,Champions
+CUST0286,281,2,67180.81,Zara Mukherjee,North,Jaipur,52,Female,Organic Search,1,1,3,5,At Risk,2,Loyal Customers
+CUST0287,32,8,79004.08,Kavya Kapoor,South,Hyderabad,45,Male,Email Campaign,4,3,3,10,Champions,1,Champions
+CUST0288,67,14,83350.32,Neha Sharma,East,Guwahati,31,Male,Paid Ads,3,4,3,10,Champions,1,Champions
+CUST0289,93,15,141847.38999999998,Aditya Bose,South,Bengaluru,27,Female,Referral,3,4,4,11,Champions,1,Champions
+CUST0290,227,2,7125.66,Suresh Menon,South,Chennai,33,Female,Paid Ads,2,1,1,4,At Risk,0,At Risk
+CUST0291,277,3,19069.71,Diya Kumar,North,Lucknow,33,Female,Organic Search,1,2,2,5,At Risk,0,At Risk
+CUST0292,662,1,5686.48,Pooja Bose,West,Surat,48,Female,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0293,27,8,69690.25,Krishna Rao,West,Surat,59,Male,Social Media,4,3,3,10,Champions,2,Loyal Customers
+CUST0294,106,4,12734.32,Diya Singh,North,Jaipur,42,Female,Referral,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0295,553,1,2000.87,Naveen Nair,West,Pune,30,Male,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0296,551,1,1714.95,Deepak Singh,South,Hyderabad,23,Female,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0297,2,2,24423.76,Naveen Reddy,East,Patna,61,Female,Referral,4,1,2,7,Potential Loyalists,2,Loyal Customers
+CUST0298,33,16,240209.01,Kiran Das,North,Lucknow,26,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0299,371,1,53107.38,Ishaan Sharma,East,Kolkata,62,Female,Email Campaign,1,1,3,5,At Risk,3,Potential Loyalists
+CUST0300,74,9,62728.59,Zara Chopra,West,Pune,53,Male,Email Campaign,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0301,146,3,40083.04,Naveen Bose,East,Patna,60,Female,Paid Ads,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0302,52,17,187611.38,Ramesh Chopra,West,Mumbai,37,Male,Email Campaign,3,4,4,11,Champions,1,Champions
+CUST0303,55,1,1415.41,Divya Rao,West,Ahmedabad,35,Female,Organic Search,3,1,1,5,At Risk,0,At Risk
+CUST0304,10,28,236667.18,Saanvi Joshi,South,Kochi,60,Male,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0305,180,4,27288.41,Arjun Kapoor,West,Mumbai,38,Female,Referral,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0306,20,42,235984.93,Anil Verma,South,Kochi,21,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0307,5,14,338410.68,Rohan Mukherjee,South,Kochi,50,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0310,65,2,20619.16,Pooja Kapoor,North,Jaipur,23,Male,Referral,3,1,2,6,Potential Loyalists,0,At Risk
+CUST0311,46,7,16521.64,Ananya Das,West,Mumbai,32,Male,Email Campaign,3,3,1,7,Potential Loyalists,2,Loyal Customers
+CUST0312,243,1,2080.56,Isha Sharma,South,Bengaluru,35,Male,Paid Ads,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0313,309,3,24667.46,Sneha Patel,North,Chandigarh,49,Male,Organic Search,1,2,2,5,At Risk,0,At Risk
+CUST0314,134,3,47180.869999999995,Divya Sharma,South,Bengaluru,28,Female,Referral,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0315,506,2,92181.49,Rahul Bose,East,Kolkata,37,Female,Referral,1,1,3,5,At Risk,3,Potential Loyalists
+CUST0316,48,2,14386.66,Sai Das,East,Patna,41,Male,Social Media,3,1,1,5,At Risk,0,At Risk
+CUST0317,104,1,4902.4,Arjun Reddy,East,Guwahati,32,Male,Email Campaign,3,1,1,5,At Risk,0,At Risk
+CUST0318,489,1,18962.0,Manisha Iyer,West,Pune,24,Male,Social Media,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0319,23,4,21498.190000000002,Suresh Reddy,South,Bengaluru,38,Male,Social Media,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0320,31,3,32398.149999999998,Lakshmi Kumar,East,Guwahati,59,Male,Email Campaign,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0321,48,7,68284.38,Rohan Joshi,North,Chandigarh,43,Male,Organic Search,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0322,40,16,140421.97,Riya Malhotra,East,Guwahati,61,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0323,221,4,42682.11,Ishaan Malhotra,East,Patna,31,Female,Social Media,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0324,197,5,59029.43,Aarav Joshi,East,Guwahati,54,Male,Referral,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0325,199,3,58287.740000000005,Isha Nair,West,Pune,38,Female,Email Campaign,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0326,33,10,284112.8,Aarav Das,North,Jaipur,35,Female,Paid Ads,4,3,4,11,Champions,1,Champions
+CUST0327,251,15,128489.09,Swati Verma,South,Chennai,22,Female,Organic Search,1,4,4,9,Loyal Customers,1,Champions
+CUST0328,14,11,110533.42000000001,Naveen Singh,North,Jaipur,20,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0329,206,6,64551.54,Nisha Verma,South,Bengaluru,40,Female,Email Campaign,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0330,499,1,10646.08,Aditya Mukherjee,West,Pune,43,Female,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0331,139,2,10009.73,Diya Sharma,West,Ahmedabad,54,Female,Referral,2,1,1,4,At Risk,0,At Risk
+CUST0332,296,2,17484.35,Arjun Das,West,Surat,41,Female,Email Campaign,1,1,2,4,At Risk,0,At Risk
+CUST0333,173,18,131915.32,Suresh Kapoor,West,Mumbai,36,Female,Referral,2,4,4,10,Champions,1,Champions
+CUST0334,125,6,30595.079999999998,Lakshmi Malhotra,South,Kochi,42,Female,Organic Search,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0335,158,5,64207.32,Vivaan Menon,East,Guwahati,38,Male,Organic Search,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0336,192,2,56651.37,Nisha Rao,South,Chennai,29,Male,Paid Ads,2,1,3,6,Potential Loyalists,2,Loyal Customers
+CUST0337,131,9,155632.58000000002,Sneha Rao,North,Jaipur,58,Male,Email Campaign,2,3,4,9,Loyal Customers,1,Champions
+CUST0338,196,1,3153.0,Sneha Mukherjee,West,Mumbai,50,Female,Social Media,2,1,1,4,At Risk,0,At Risk
+CUST0340,179,3,19559.56,Manish Joshi,North,Jaipur,59,Female,Paid Ads,2,2,2,6,Potential Loyalists,0,At Risk
+CUST0341,217,3,9549.849999999999,Sneha Desai,South,Kochi,24,Female,Paid Ads,2,2,1,5,At Risk,0,At Risk
+CUST0342,40,5,18703.84,Manisha Sharma,East,Patna,39,Male,Referral,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0343,109,13,81119.06,Vikram Kapoor,East,Patna,50,Male,Paid Ads,3,4,3,10,Champions,1,Champions
+CUST0344,651,1,9792.87,Sanjay Kumar,North,Lucknow,34,Female,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0345,92,5,18340.68,Riya Reddy,East,Bhubaneswar,41,Female,Social Media,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0346,176,3,59806.08,Ramesh Nair,South,Kochi,51,Female,Referral,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0347,5,3,11498.91,Rohan Das,South,Chennai,45,Male,Paid Ads,4,2,1,7,Potential Loyalists,0,At Risk
+CUST0348,140,16,250101.36000000002,Rohan Das,North,Lucknow,60,Female,Paid Ads,2,4,4,10,Champions,1,Champions
+CUST0349,17,8,87650.13,Zara Reddy,South,Kochi,58,Female,Referral,4,3,3,10,Champions,1,Champions
+CUST0350,68,16,161777.16,Sneha Rao,West,Ahmedabad,56,Female,Email Campaign,3,4,4,11,Champions,1,Champions
+CUST0351,69,12,106950.20999999999,Vivaan Chopra,North,Delhi,39,Female,Referral,3,4,4,11,Champions,1,Champions
+CUST0352,46,6,175775.78,Ananya Joshi,South,Kochi,34,Female,Social Media,3,3,4,10,Champions,1,Champions
+CUST0353,429,1,9192.97,Suresh Bose,North,Delhi,51,Male,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0354,13,8,58191.479999999996,Neha Menon,East,Guwahati,23,Female,Organic Search,4,3,3,10,Champions,2,Loyal Customers
+CUST0355,439,1,296.32,Priya Singh,South,Hyderabad,63,Female,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0356,47,6,78867.93,Vihaan Singh,West,Pune,23,Female,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0357,288,1,3964.24,Vihaan Iyer,South,Hyderabad,51,Female,Email Campaign,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0358,29,9,69955.38,Pooja Iyer,North,Lucknow,18,Male,Referral,4,3,3,10,Champions,1,Champions
+CUST0359,186,5,21959.92,Manish Mukherjee,North,Chandigarh,27,Male,Paid Ads,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0360,254,3,9756.65,Tara Reddy,South,Bengaluru,38,Female,Referral,1,2,1,4,At Risk,0,At Risk
+CUST0361,2,6,12291.64,Saanvi Kumar,West,Surat,22,Female,Organic Search,4,3,1,8,Loyal Customers,2,Loyal Customers
+CUST0362,173,19,185946.06,Karthik Rao,West,Surat,19,Female,Referral,2,4,4,10,Champions,1,Champions
+CUST0363,413,2,7961.889999999999,Aarav Reddy,West,Mumbai,39,Male,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0364,90,3,36279.66,Diya Malhotra,North,Delhi,19,Female,Email Campaign,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0365,347,3,49798.46,Sneha Das,South,Hyderabad,27,Female,Referral,1,2,2,5,At Risk,2,Loyal Customers
+CUST0367,115,10,130412.83,Manish Patel,North,Delhi,33,Male,Paid Ads,2,3,4,9,Loyal Customers,1,Champions
+CUST0368,86,2,10430.61,Deepak Kapoor,West,Ahmedabad,56,Female,Referral,3,1,1,5,At Risk,0,At Risk
+CUST0369,212,5,50965.69,Karthik Kapoor,South,Bengaluru,39,Female,Paid Ads,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0370,133,10,60165.15,Sanjay Menon,West,Surat,29,Male,Paid Ads,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0371,103,7,77176.86,Riya Nair,East,Bhubaneswar,41,Female,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0372,247,6,102137.48,Aarav Singh,West,Surat,64,Female,Referral,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0373,59,14,116522.95,Divya Desai,West,Mumbai,57,Female,Email Campaign,3,4,4,11,Champions,1,Champions
+CUST0374,266,9,56957.59,Meera Kapoor,East,Kolkata,55,Male,Paid Ads,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0375,282,6,109391.65,Karthik Malhotra,South,Bengaluru,27,Male,Social Media,1,3,4,8,Loyal Customers,2,Loyal Customers
+CUST0377,35,7,76212.79999999999,Vikram Verma,South,Kochi,49,Male,Referral,4,3,3,10,Champions,2,Loyal Customers
+CUST0378,96,1,3879.48,Deepak Malhotra,East,Patna,24,Male,Organic Search,3,1,1,5,At Risk,0,At Risk
+CUST0379,63,15,123723.2,Reyansh Iyer,West,Mumbai,38,Female,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0380,62,4,30844.62,Suresh Malhotra,South,Chennai,37,Male,Paid Ads,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0381,567,3,16852.49,Saanvi Rao,North,Lucknow,43,Female,Organic Search,1,2,2,5,At Risk,3,Potential Loyalists
+CUST0382,87,2,3363.3,Divya Joshi,East,Guwahati,21,Female,Paid Ads,3,1,1,5,At Risk,0,At Risk
+CUST0383,24,7,78126.38,Meera Reddy,South,Hyderabad,63,Female,Email Campaign,4,3,3,10,Champions,2,Loyal Customers
+CUST0384,14,13,199095.71,Naveen Kumar,North,Jaipur,39,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0385,147,3,26535.059999999998,Nisha Das,East,Guwahati,32,Female,Organic Search,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0386,3,18,125308.61,Nisha Pillai,North,Lucknow,57,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0387,52,5,28834.11,Anil Das,East,Patna,38,Male,Organic Search,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0388,277,4,31640.75,Isha Desai,West,Ahmedabad,32,Male,Paid Ads,1,2,2,5,At Risk,2,Loyal Customers
+CUST0389,37,14,157370.66999999998,Anil Nair,South,Hyderabad,39,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0390,130,2,4148.24,Rohan Iyer,North,Delhi,45,Female,Referral,2,1,1,4,At Risk,0,At Risk
+CUST0391,20,22,234284.27,Saanvi Kapoor,East,Kolkata,31,Male,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0392,352,1,2209.03,Kiran Kapoor,North,Lucknow,44,Female,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0394,86,13,129817.70999999999,Krishna Singh,South,Chennai,57,Male,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0396,20,29,290900.47,Lakshmi Rao,North,Lucknow,43,Female,Referral,4,4,4,12,Champions,1,Champions
+CUST0397,10,19,226266.57,Deepak Verma,East,Patna,19,Male,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0399,188,6,16843.31,Shreya Rao,West,Pune,20,Male,Email Campaign,2,3,1,6,Potential Loyalists,2,Loyal Customers
+CUST0400,536,2,6410.2699999999995,Sai Bose,East,Bhubaneswar,25,Female,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0401,386,2,18867.32,Vihaan Menon,West,Surat,61,Male,Email Campaign,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0403,252,2,48935.04,Aditya Joshi,South,Chennai,59,Female,Referral,1,1,2,4,At Risk,2,Loyal Customers
+CUST0404,6,6,33347.15,Neha Singh,North,Lucknow,52,Female,Referral,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0405,30,8,92048.05,Lakshmi Nair,South,Kochi,23,Male,Social Media,4,3,3,10,Champions,1,Champions
+CUST0406,50,40,285857.56,Vikram Rao,North,Lucknow,56,Male,Referral,3,4,4,11,Champions,1,Champions
+CUST0407,135,11,50630.479999999996,Vivaan Desai,North,Delhi,40,Female,Organic Search,2,4,2,8,Loyal Customers,2,Loyal Customers
+CUST0408,165,9,77459.72,Naveen Menon,North,Delhi,42,Male,Social Media,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0409,41,6,50402.13,Vihaan Kapoor,South,Chennai,60,Male,Paid Ads,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0410,27,17,197595.95,Sai Das,North,Chandigarh,36,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0411,287,3,43194.73,Sanjay Rao,South,Hyderabad,22,Male,Social Media,1,2,2,5,At Risk,2,Loyal Customers
+CUST0412,6,9,220621.88,Vivaan Kapoor,West,Mumbai,28,Female,Organic Search,4,3,4,11,Champions,1,Champions
+CUST0413,9,39,293830.58,Ananya Singh,East,Bhubaneswar,29,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0414,127,6,57055.51,Deepak Joshi,East,Patna,27,Male,Email Campaign,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0415,48,8,111923.52,Arjun Rao,North,Chandigarh,25,Female,Organic Search,3,3,4,10,Champions,1,Champions
+CUST0416,150,8,71260.66,Deepak Nair,South,Chennai,41,Male,Organic Search,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0417,1,22,232762.77000000002,Tara Desai,East,Kolkata,45,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0418,100,10,89180.54,Shreya Desai,South,Kochi,58,Female,Social Media,3,3,3,9,Loyal Customers,1,Champions
+CUST0419,23,2,25323.14,Diya Kapoor,South,Hyderabad,53,Male,Email Campaign,4,1,2,7,Potential Loyalists,2,Loyal Customers
+CUST0420,4,4,8013.84,Aarav Malhotra,North,Delhi,54,Female,Organic Search,4,2,1,7,Potential Loyalists,0,At Risk
+CUST0422,3,12,117208.48,Ananya Nair,North,Lucknow,25,Male,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0424,25,13,150325.91,Aditya Sharma,East,Guwahati,64,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0425,338,2,5378.77,Sai Mukherjee,East,Guwahati,32,Female,Organic Search,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0426,258,3,6316.1900000000005,Rohan Reddy,West,Ahmedabad,63,Female,Email Campaign,1,2,1,4,At Risk,0,At Risk
+CUST0427,47,3,4785.96,Suresh Kumar,West,Surat,57,Female,Social Media,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0428,14,10,109938.07999999999,Vivaan Chopra,South,Hyderabad,35,Female,Referral,4,3,4,11,Champions,1,Champions
+CUST0429,191,3,72772.25,Swati Verma,East,Bhubaneswar,59,Female,Email Campaign,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0430,203,6,122547.53999999998,Zara Sharma,West,Ahmedabad,37,Female,Social Media,2,3,4,9,Loyal Customers,2,Loyal Customers
+CUST0431,22,2,76552.26,Lakshmi Patel,South,Bengaluru,23,Female,Referral,4,1,3,8,Loyal Customers,2,Loyal Customers
+CUST0432,479,1,3090.86,Riya Patel,South,Kochi,29,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0433,178,1,1125.44,Ananya Kapoor,South,Hyderabad,19,Female,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0434,232,11,128297.61,Vikram Rao,West,Mumbai,24,Female,Paid Ads,2,4,4,10,Champions,1,Champions
+CUST0435,161,4,24482.62,Divya Das,East,Patna,33,Male,Email Campaign,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0437,61,14,269488.44,Kavya Menon,South,Kochi,62,Male,Social Media,3,4,4,11,Champions,1,Champions
+CUST0438,21,29,253229.01,Ishaan Verma,West,Ahmedabad,20,Male,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0439,43,6,44960.07,Diya Iyer,West,Surat,44,Female,Social Media,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0440,74,6,69775.55,Divya Sharma,North,Chandigarh,60,Male,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0441,53,17,161857.49,Swati Singh,North,Lucknow,57,Male,Referral,3,4,4,11,Champions,1,Champions
+CUST0442,39,14,211945.32,Ananya Patel,West,Mumbai,55,Male,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0443,44,14,64586.619999999995,Lakshmi Malhotra,East,Bhubaneswar,50,Female,Social Media,4,4,3,11,Champions,1,Champions
+CUST0444,104,3,8623.77,Sanjay Iyer,North,Chandigarh,45,Male,Email Campaign,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0445,38,8,47097.38,Rahul Reddy,West,Mumbai,18,Female,Email Campaign,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0446,114,6,41887.68,Arjun Joshi,North,Lucknow,25,Male,Referral,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0448,630,3,18806.14,Anil Chopra,South,Chennai,49,Female,Organic Search,1,2,2,5,At Risk,3,Potential Loyalists
+CUST0449,57,12,122767.38,Anil Mukherjee,North,Chandigarh,60,Male,Email Campaign,3,4,4,11,Champions,1,Champions
+CUST0450,202,7,63125.05,Swati Singh,East,Kolkata,54,Male,Paid Ads,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0451,206,2,92623.33,Nisha Singh,West,Surat,21,Male,Referral,2,1,3,6,Potential Loyalists,2,Loyal Customers
+CUST0452,42,15,138035.09000000003,Kavya Joshi,North,Chandigarh,47,Female,Referral,4,4,4,12,Champions,1,Champions
+CUST0453,653,1,1673.27,Manisha Sharma,North,Jaipur,23,Male,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0454,105,5,25274.34,Suresh Kapoor,West,Mumbai,63,Male,Email Campaign,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0455,17,13,105953.27,Shreya Das,South,Kochi,36,Male,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0457,111,1,3908.44,Vivaan Malhotra,North,Delhi,26,Male,Organic Search,2,1,1,4,At Risk,0,At Risk
+CUST0458,66,17,244899.06999999998,Swati Singh,West,Ahmedabad,29,Female,Referral,3,4,4,11,Champions,1,Champions
+CUST0459,428,1,5271.53,Nisha Joshi,East,Guwahati,28,Female,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0460,663,2,8170.18,Sai Rao,West,Ahmedabad,63,Male,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0461,20,29,371398.49,Aditya Gupta,North,Delhi,33,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0462,5,12,238256.93,Krishna Kumar,West,Ahmedabad,18,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0463,324,9,93334.89000000001,Meera Kapoor,South,Kochi,62,Female,Organic Search,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0464,107,12,85820.59,Ramesh Sharma,West,Surat,38,Female,Organic Search,3,4,3,10,Champions,1,Champions
+CUST0466,15,6,20833.94,Manish Nair,East,Kolkata,30,Female,Organic Search,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0467,432,1,1378.32,Ramesh Rao,South,Kochi,51,Male,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0468,82,18,278783.64,Shreya Reddy,West,Mumbai,21,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0469,196,4,34926.44,Manish Sharma,North,Lucknow,45,Female,Social Media,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0470,233,4,27911.51,Vihaan Verma,South,Kochi,55,Male,Email Campaign,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0471,55,5,43096.93,Rohan Reddy,East,Bhubaneswar,48,Female,Social Media,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0472,131,6,113843.17,Rohan Sharma,South,Bengaluru,44,Male,Paid Ads,2,3,4,9,Loyal Customers,2,Loyal Customers
+CUST0473,83,12,191210.80000000002,Manisha Chopra,South,Hyderabad,22,Female,Social Media,3,4,4,11,Champions,1,Champions
+CUST0474,192,7,10877.72,Neha Kapoor,South,Bengaluru,42,Male,Email Campaign,2,3,1,6,Potential Loyalists,2,Loyal Customers
+CUST0475,46,11,94796.65,Kiran Chopra,East,Bhubaneswar,20,Male,Email Campaign,3,4,3,10,Champions,1,Champions
+CUST0476,79,8,34379.090000000004,Vikram Desai,West,Mumbai,50,Female,Organic Search,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0477,19,7,87946.70000000001,Meera Singh,South,Hyderabad,21,Female,Referral,4,3,3,10,Champions,2,Loyal Customers
+CUST0478,26,11,95182.90000000001,Arjun Kapoor,South,Chennai,42,Male,Organic Search,4,4,3,11,Champions,1,Champions
+CUST0479,58,14,120107.67,Vihaan Pillai,North,Delhi,37,Male,Email Campaign,3,4,4,11,Champions,1,Champions
+CUST0480,61,12,230891.13,Vivaan Joshi,East,Guwahati,51,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0481,54,18,51244.08,Kiran Nair,South,Chennai,43,Male,Paid Ads,3,4,3,10,Champions,1,Champions
+CUST0482,62,10,45854.87,Deepak Menon,East,Patna,22,Male,Organic Search,3,4,2,9,Loyal Customers,2,Loyal Customers
+CUST0483,26,6,24775.49,Manish Reddy,South,Kochi,52,Female,Email Campaign,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0484,33,9,60980.68,Zara Menon,West,Surat,45,Female,Paid Ads,4,3,3,10,Champions,1,Champions
+CUST0485,12,17,106473.84,Rohan Singh,West,Ahmedabad,46,Male,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0486,64,12,126583.76,Manisha Rao,South,Chennai,26,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0487,38,10,112087.14,Krishna Kapoor,West,Mumbai,55,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0488,171,5,27249.61,Deepak Malhotra,South,Bengaluru,23,Female,Social Media,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0489,4,5,21645.54,Diya Chopra,West,Ahmedabad,36,Female,Email Campaign,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0490,3,4,71018.16,Swati Mukherjee,North,Lucknow,61,Male,Email Campaign,4,2,3,9,Loyal Customers,2,Loyal Customers
+CUST0491,194,5,35043.81,Anil Sharma,North,Jaipur,28,Male,Organic Search,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0492,3,21,193697.51,Swati Menon,North,Jaipur,19,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0493,267,4,40653.97,Diya Pillai,East,Guwahati,64,Female,Referral,1,2,2,5,At Risk,2,Loyal Customers
+CUST0494,102,5,117375.59,Kiran Bose,East,Patna,61,Male,Organic Search,3,2,4,9,Loyal Customers,2,Loyal Customers
+CUST0495,98,10,90045.04,Vihaan Reddy,North,Chandigarh,61,Female,Referral,3,4,3,10,Champions,1,Champions
+CUST0496,322,6,167376.05,Lakshmi Singh,East,Guwahati,26,Male,Paid Ads,1,3,4,8,Loyal Customers,2,Loyal Customers
+CUST0497,137,6,31531.15,Naveen Patel,West,Ahmedabad,38,Male,Referral,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0498,8,9,85638.0,Ramesh Malhotra,South,Bengaluru,41,Female,Email Campaign,4,3,3,10,Champions,1,Champions
+CUST0499,65,11,73419.06999999999,Swati Patel,South,Hyderabad,51,Male,Referral,3,4,3,10,Champions,1,Champions
+CUST0500,647,1,32959.47,Karthik Menon,South,Hyderabad,39,Male,Organic Search,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0501,139,5,86322.48,Suresh Sharma,North,Delhi,20,Female,Organic Search,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0502,94,2,26474.44,Lakshmi Malhotra,East,Guwahati,29,Male,Referral,3,1,2,6,Potential Loyalists,0,At Risk
+CUST0503,86,5,19941.54,Kiran Sharma,West,Mumbai,45,Female,Organic Search,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0504,196,6,63634.560000000005,Swati Kapoor,West,Surat,47,Female,Organic Search,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0505,179,3,12326.08,Rahul Kapoor,North,Jaipur,43,Male,Referral,2,2,1,5,At Risk,0,At Risk
+CUST0506,90,3,36398.5,Ishaan Patel,West,Ahmedabad,38,Female,Social Media,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0507,78,5,84169.01999999999,Rohan Desai,West,Surat,45,Male,Social Media,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0508,225,1,3616.85,Deepak Patel,West,Ahmedabad,43,Male,Paid Ads,2,1,1,4,At Risk,0,At Risk
+CUST0509,66,7,105273.05,Divya Desai,West,Ahmedabad,50,Male,Organic Search,3,3,4,10,Champions,2,Loyal Customers
+CUST0510,21,13,75383.51000000001,Anil Menon,East,Guwahati,38,Male,Referral,4,4,3,11,Champions,1,Champions
+CUST0511,175,4,25677.38,Manisha Verma,West,Ahmedabad,52,Female,Organic Search,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0512,134,1,4905.09,Reyansh Mukherjee,South,Hyderabad,51,Male,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0514,335,3,20148.41,Manish Das,East,Patna,64,Female,Organic Search,1,2,2,5,At Risk,0,At Risk
+CUST0515,100,8,57896.020000000004,Vikram Gupta,West,Ahmedabad,35,Female,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0516,134,3,10939.19,Sai Sharma,East,Patna,28,Male,Referral,2,2,1,5,At Risk,0,At Risk
+CUST0517,226,3,5306.19,Ramesh Menon,West,Pune,40,Male,Organic Search,2,2,1,5,At Risk,0,At Risk
+CUST0518,612,2,4057.2799999999997,Karthik Mukherjee,South,Hyderabad,39,Female,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0519,173,4,101191.66,Rahul Das,North,Lucknow,34,Male,Paid Ads,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0520,128,3,47696.5,Reyansh Das,West,Pune,22,Male,Social Media,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0521,576,1,4777.54,Zara Patel,West,Pune,61,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0522,1,12,84013.89,Zara Singh,West,Ahmedabad,28,Male,Social Media,4,4,3,11,Champions,1,Champions
+CUST0523,91,4,31295.69,Reyansh Sharma,West,Ahmedabad,47,Female,Organic Search,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0525,2,6,76698.17,Sanjay Joshi,North,Chandigarh,44,Male,Paid Ads,4,3,3,10,Champions,2,Loyal Customers
+CUST0526,30,4,99632.25,Tara Das,South,Bengaluru,52,Male,Email Campaign,4,2,3,9,Loyal Customers,2,Loyal Customers
+CUST0527,48,9,131240.86,Ramesh Bose,North,Jaipur,50,Female,Email Campaign,3,3,4,10,Champions,1,Champions
+CUST0528,371,2,12308.14,Swati Joshi,West,Pune,37,Female,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0529,56,2,5011.17,Saanvi Sharma,South,Chennai,33,Male,Paid Ads,3,1,1,5,At Risk,0,At Risk
+CUST0530,193,2,34983.47,Kavya Joshi,South,Bengaluru,51,Female,Email Campaign,2,1,2,5,At Risk,0,At Risk
+CUST0531,461,1,2056.58,Vivaan Das,South,Kochi,19,Female,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0532,48,13,76542.37,Sanjay Rao,West,Mumbai,52,Female,Social Media,3,4,3,10,Champions,1,Champions
+CUST0533,131,15,156087.68,Vihaan Sharma,East,Bhubaneswar,57,Female,Organic Search,2,4,4,10,Champions,1,Champions
+CUST0534,518,2,80233.18000000001,Krishna Gupta,West,Surat,45,Male,Organic Search,1,1,3,5,At Risk,3,Potential Loyalists
+CUST0535,25,13,274810.9,Aditya Kumar,North,Jaipur,64,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0536,349,1,2752.09,Rohan Joshi,North,Lucknow,56,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0537,6,17,247402.61000000002,Sneha Sharma,West,Surat,23,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0538,228,1,48616.88,Suresh Mukherjee,West,Pune,26,Female,Organic Search,2,1,2,5,At Risk,0,At Risk
+CUST0540,294,6,59473.35,Aarav Iyer,West,Surat,18,Male,Social Media,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0541,181,4,13925.79,Vikram Singh,South,Hyderabad,25,Female,Paid Ads,2,2,1,5,At Risk,0,At Risk
+CUST0542,204,3,14379.679999999998,Lakshmi Iyer,North,Lucknow,40,Female,Social Media,2,2,1,5,At Risk,0,At Risk
+CUST0543,431,1,4963.07,Shreya Kapoor,South,Hyderabad,20,Male,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0544,52,4,25616.719999999998,Krishna Verma,West,Mumbai,21,Male,Social Media,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0545,19,2,29056.66,Divya Malhotra,North,Jaipur,42,Male,Organic Search,4,1,2,7,Potential Loyalists,2,Loyal Customers
+CUST0546,596,1,3824.8,Pooja Malhotra,East,Kolkata,64,Female,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0547,3,14,133751.91,Priya Nair,South,Kochi,55,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0549,261,3,12447.439999999999,Neha Bose,South,Bengaluru,38,Male,Email Campaign,1,2,1,4,At Risk,0,At Risk
+CUST0550,218,5,60196.969999999994,Saanvi Gupta,North,Chandigarh,52,Male,Social Media,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0551,243,1,8622.05,Rohan Gupta,North,Jaipur,63,Female,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0552,35,9,65421.5,Shreya Joshi,South,Hyderabad,31,Male,Referral,4,3,3,10,Champions,1,Champions
+CUST0553,96,9,54034.83,Tara Nair,East,Bhubaneswar,53,Male,Paid Ads,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0554,201,2,7883.15,Ramesh Mukherjee,North,Delhi,29,Female,Organic Search,2,1,1,4,At Risk,0,At Risk
+CUST0555,51,20,192511.15,Vivaan Sharma,North,Delhi,34,Female,Social Media,3,4,4,11,Champions,1,Champions
+CUST0556,4,7,35247.61,Arjun Desai,North,Chandigarh,56,Male,Referral,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0557,203,3,63102.35,Ananya Kumar,East,Kolkata,26,Female,Paid Ads,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0558,294,5,57279.84,Vivaan Iyer,East,Guwahati,52,Female,Email Campaign,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0559,257,2,6187.099999999999,Suresh Pillai,West,Surat,30,Female,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0560,76,15,138219.77,Zara Reddy,South,Chennai,32,Male,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0561,13,8,149301.77,Lakshmi Rao,East,Kolkata,35,Female,Organic Search,4,3,4,11,Champions,1,Champions
+CUST0562,61,13,252816.14,Sanjay Patel,South,Chennai,50,Male,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0563,14,25,224977.46000000002,Sneha Pillai,West,Mumbai,23,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0564,222,7,98153.79,Divya Desai,South,Bengaluru,44,Male,Referral,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0565,30,7,36608.94,Karthik Pillai,East,Patna,40,Male,Social Media,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0566,316,2,19635.82,Vikram Das,South,Chennai,44,Female,Paid Ads,1,1,2,4,At Risk,0,At Risk
+CUST0567,40,10,44919.31,Rohan Malhotra,East,Guwahati,51,Male,Referral,4,4,2,10,Champions,2,Loyal Customers
+CUST0569,54,10,58049.13,Riya Malhotra,East,Guwahati,55,Female,Social Media,3,4,3,10,Champions,1,Champions
+CUST0570,166,3,16119.14,Ishaan Singh,East,Bhubaneswar,31,Male,Referral,2,2,1,5,At Risk,0,At Risk
+CUST0572,522,1,2865.49,Anil Gupta,West,Mumbai,25,Male,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0573,55,5,17916.02,Ishaan Menon,North,Lucknow,52,Male,Paid Ads,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0574,67,4,59861.51,Vihaan Chopra,West,Pune,36,Male,Organic Search,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0575,352,5,71125.13,Sneha Reddy,South,Bengaluru,47,Female,Referral,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0576,70,2,5554.09,Ananya Rao,West,Ahmedabad,31,Male,Paid Ads,3,1,1,5,At Risk,0,At Risk
+CUST0577,85,4,35544.240000000005,Saanvi Kumar,East,Guwahati,37,Male,Referral,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0578,66,6,75197.39,Kiran Patel,North,Chandigarh,42,Female,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0579,654,1,9954.04,Manisha Verma,South,Chennai,57,Female,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0581,59,5,111779.85,Anil Rao,South,Chennai,31,Female,Referral,3,2,4,9,Loyal Customers,2,Loyal Customers
+CUST0582,18,3,21800.92,Diya Kumar,North,Lucknow,43,Male,Email Campaign,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0584,482,3,16199.66,Manish Singh,South,Kochi,40,Male,Paid Ads,1,2,1,4,At Risk,3,Potential Loyalists
+CUST0586,86,2,7369.61,Reyansh Kumar,South,Hyderabad,36,Female,Paid Ads,3,1,1,5,At Risk,0,At Risk
+CUST0587,562,1,30055.22,Riya Malhotra,South,Chennai,63,Male,Paid Ads,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0588,264,10,157360.09999999998,Vivaan Menon,South,Bengaluru,20,Female,Organic Search,1,4,4,9,Loyal Customers,1,Champions
+CUST0589,60,15,175237.46,Aarav Joshi,South,Chennai,59,Male,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0590,52,2,1803.95,Kiran Joshi,East,Patna,36,Female,Referral,3,1,1,5,At Risk,0,At Risk
+CUST0591,30,25,347794.4,Deepak Menon,West,Mumbai,26,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0592,258,2,6186.55,Swati Menon,East,Bhubaneswar,45,Female,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0593,301,4,14777.32,Kiran Das,West,Mumbai,37,Male,Social Media,1,2,1,4,At Risk,0,At Risk
+CUST0594,19,4,36787.08,Nisha Singh,South,Kochi,62,Female,Email Campaign,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0595,1,6,23558.309999999998,Divya Verma,North,Chandigarh,24,Male,Social Media,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0596,41,10,209709.81,Vikram Reddy,East,Patna,31,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0597,449,2,43035.869999999995,Shreya Nair,North,Lucknow,26,Female,Social Media,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0598,198,2,48285.31,Zara Joshi,East,Patna,36,Female,Organic Search,2,1,2,5,At Risk,2,Loyal Customers
+CUST0599,402,2,13482.32,Divya Desai,South,Kochi,64,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0600,35,3,47893.28,Riya Chopra,East,Kolkata,31,Male,Referral,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0601,103,5,113133.56999999999,Sneha Patel,South,Hyderabad,55,Male,Organic Search,3,2,4,9,Loyal Customers,2,Loyal Customers
+CUST0602,248,6,32906.2,Deepak Verma,East,Guwahati,53,Male,Email Campaign,1,3,2,6,Potential Loyalists,2,Loyal Customers
+CUST0604,113,8,76148.78,Swati Das,South,Bengaluru,34,Female,Paid Ads,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0605,59,8,31165.58,Aarav Menon,West,Surat,47,Female,Paid Ads,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0606,12,16,85428.58,Swati Kumar,South,Chennai,26,Male,Paid Ads,4,4,3,11,Champions,1,Champions
+CUST0607,177,3,7776.11,Anil Gupta,West,Mumbai,50,Female,Referral,2,2,1,5,At Risk,0,At Risk
+CUST0608,6,6,15002.6,Divya Iyer,South,Hyderabad,42,Female,Referral,4,3,1,8,Loyal Customers,2,Loyal Customers
+CUST0609,20,10,61886.14,Lakshmi Pillai,North,Chandigarh,31,Female,Referral,4,4,3,11,Champions,1,Champions
+CUST0610,30,3,36848.48,Sanjay Rao,South,Kochi,28,Female,Organic Search,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0611,127,4,37330.490000000005,Sneha Pillai,North,Delhi,52,Male,Organic Search,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0612,9,26,275987.17,Tara Reddy,North,Lucknow,58,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0613,155,3,8982.3,Riya Kumar,South,Bengaluru,31,Male,Social Media,2,2,1,5,At Risk,0,At Risk
+CUST0614,109,7,54611.270000000004,Diya Bose,North,Chandigarh,47,Male,Paid Ads,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0615,566,3,38408.57,Vikram Joshi,West,Ahmedabad,58,Male,Email Campaign,1,2,2,5,At Risk,3,Potential Loyalists
+CUST0617,67,12,196304.85,Suresh Reddy,South,Chennai,21,Female,Referral,3,4,4,11,Champions,1,Champions
+CUST0618,229,3,16219.849999999999,Priya Rao,North,Jaipur,45,Female,Organic Search,2,2,1,5,At Risk,0,At Risk
+CUST0619,258,2,6309.98,Krishna Mukherjee,South,Bengaluru,25,Female,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0620,112,2,33938.35,Anil Pillai,West,Surat,19,Male,Email Campaign,2,1,2,5,At Risk,2,Loyal Customers
+CUST0621,102,8,27799.98,Meera Patel,South,Bengaluru,58,Male,Email Campaign,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0622,16,15,198144.58000000002,Deepak Kapoor,South,Bengaluru,63,Male,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0624,128,12,195042.13999999998,Priya Gupta,West,Ahmedabad,58,Male,Email Campaign,2,4,4,10,Champions,1,Champions
+CUST0626,29,7,40375.19,Kavya Kapoor,East,Patna,46,Male,Paid Ads,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0627,59,7,61441.26,Reyansh Patel,North,Lucknow,47,Female,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0628,381,1,8869.48,Krishna Mukherjee,South,Bengaluru,29,Male,Organic Search,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0629,290,9,70059.26,Suresh Mukherjee,North,Delhi,52,Female,Email Campaign,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0630,119,9,52773.73,Neha Desai,North,Chandigarh,28,Female,Organic Search,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0631,88,13,71192.63,Nisha Iyer,North,Delhi,63,Male,Paid Ads,3,4,3,10,Champions,1,Champions
+CUST0632,156,3,31483.4,Saanvi Kumar,South,Chennai,38,Male,Email Campaign,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0634,296,2,4379.29,Kavya Iyer,North,Chandigarh,22,Male,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0635,134,3,67778.33,Sneha Iyer,South,Chennai,37,Female,Referral,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0636,84,7,44875.490000000005,Lakshmi Menon,West,Ahmedabad,54,Male,Referral,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0637,37,13,84759.85,Swati Pillai,North,Jaipur,20,Male,Social Media,4,4,3,11,Champions,1,Champions
+CUST0638,23,8,38451.98,Nisha Kapoor,East,Kolkata,61,Male,Paid Ads,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0639,29,16,301892.04,Vihaan Chopra,West,Pune,50,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0640,17,10,180143.68,Saanvi Sharma,North,Chandigarh,26,Female,Referral,4,4,4,12,Champions,1,Champions
+CUST0641,10,3,7969.16,Priya Chopra,West,Ahmedabad,26,Female,Social Media,4,2,1,7,Potential Loyalists,0,At Risk
+CUST0642,167,2,87416.18000000001,Vivaan Iyer,West,Surat,21,Male,Social Media,2,1,3,6,Potential Loyalists,2,Loyal Customers
+CUST0643,28,11,41714.03,Sneha Chopra,West,Mumbai,52,Female,Paid Ads,4,4,2,10,Champions,1,Champions
+CUST0644,85,2,10229.130000000001,Isha Mukherjee,West,Mumbai,34,Female,Paid Ads,3,1,1,5,At Risk,0,At Risk
+CUST0646,124,5,50998.29,Nisha Malhotra,West,Mumbai,41,Female,Referral,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0647,62,16,194124.53999999998,Ramesh Das,North,Jaipur,49,Male,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0649,22,10,224460.04,Priya Pillai,South,Kochi,25,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0650,41,14,91385.16,Rohan Gupta,West,Mumbai,62,Male,Email Campaign,4,4,3,11,Champions,1,Champions
+CUST0651,182,9,44108.22,Zara Reddy,South,Kochi,40,Male,Paid Ads,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0653,10,3,8346.77,Aditya Chopra,West,Pune,57,Male,Email Campaign,4,2,1,7,Potential Loyalists,0,At Risk
+CUST0654,44,5,63000.83,Kavya Mukherjee,East,Patna,29,Female,Email Campaign,4,2,3,9,Loyal Customers,2,Loyal Customers
+CUST0655,112,7,29030.989999999998,Vihaan Mukherjee,South,Kochi,29,Female,Social Media,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0656,32,17,178052.85,Lakshmi Bose,West,Mumbai,63,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0657,137,6,33608.5,Aarav Malhotra,North,Lucknow,64,Male,Email Campaign,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0658,315,2,56032.11,Meera Patel,East,Patna,32,Female,Email Campaign,1,1,3,5,At Risk,2,Loyal Customers
+CUST0659,77,2,35000.34,Meera Das,South,Bengaluru,58,Male,Organic Search,3,1,2,6,Potential Loyalists,2,Loyal Customers
+CUST0660,51,10,72208.68000000001,Vikram Nair,South,Chennai,36,Male,Social Media,3,4,3,10,Champions,1,Champions
+CUST0661,446,1,57219.01,Diya Reddy,West,Mumbai,43,Male,Paid Ads,1,1,3,5,At Risk,3,Potential Loyalists
+CUST0662,288,1,3709.6,Lakshmi Menon,East,Bhubaneswar,46,Female,Organic Search,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0663,72,6,68179.51000000001,Sai Gupta,East,Guwahati,39,Male,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0664,173,1,2552.72,Vikram Menon,East,Kolkata,57,Female,Social Media,2,1,1,4,At Risk,0,At Risk
+CUST0665,508,1,1338.35,Isha Verma,East,Guwahati,38,Female,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0666,154,3,15811.79,Anil Gupta,North,Lucknow,55,Female,Referral,2,2,1,5,At Risk,0,At Risk
+CUST0667,151,1,14016.99,Vihaan Singh,East,Guwahati,37,Female,Referral,2,1,1,4,At Risk,0,At Risk
+CUST0669,114,4,23243.489999999998,Rohan Menon,South,Kochi,21,Female,Paid Ads,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0670,144,11,123364.89,Sneha Patel,North,Lucknow,24,Male,Email Campaign,2,4,4,10,Champions,1,Champions
+CUST0671,306,1,2832.44,Aditya Rao,South,Hyderabad,45,Female,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0672,27,11,73822.44,Arjun Reddy,South,Hyderabad,45,Male,Email Campaign,4,4,3,11,Champions,1,Champions
+CUST0673,232,2,8227.14,Suresh Das,East,Guwahati,21,Male,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0674,90,8,84680.02,Ishaan Iyer,South,Bengaluru,39,Female,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0675,44,12,103658.51,Zara Das,North,Delhi,29,Male,Paid Ads,4,4,3,11,Champions,1,Champions
+CUST0676,216,6,73507.06,Divya Mukherjee,East,Patna,62,Male,Organic Search,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0677,24,18,265872.95,Saanvi Das,West,Surat,20,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0678,17,2,7781.700000000001,Vikram Iyer,East,Guwahati,39,Female,Email Campaign,4,1,1,6,Potential Loyalists,0,At Risk
+CUST0680,60,20,182251.16,Manisha Chopra,East,Guwahati,19,Male,Referral,3,4,4,11,Champions,1,Champions
+CUST0681,456,2,27483.510000000002,Anil Patel,East,Bhubaneswar,41,Female,Organic Search,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0682,393,2,21094.27,Vihaan Malhotra,North,Lucknow,51,Male,Referral,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0683,197,5,17530.74,Lakshmi Verma,East,Bhubaneswar,44,Female,Organic Search,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0684,128,13,72017.67,Ananya Patel,North,Lucknow,58,Female,Email Campaign,2,4,3,9,Loyal Customers,1,Champions
+CUST0685,11,17,162171.6,Aditya Patel,North,Lucknow,18,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0686,191,1,5939.44,Aditya Verma,West,Surat,25,Male,Organic Search,2,1,1,4,At Risk,0,At Risk
+CUST0687,58,19,220576.69,Diya Kumar,South,Chennai,40,Male,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0690,190,7,158658.04,Ananya Verma,East,Guwahati,39,Male,Email Campaign,2,3,4,9,Loyal Customers,2,Loyal Customers
+CUST0691,77,3,21968.19,Vikram Kapoor,West,Pune,42,Female,Organic Search,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0692,177,1,2743.63,Manisha Singh,West,Pune,35,Male,Social Media,2,1,1,4,At Risk,0,At Risk
+CUST0693,33,10,150215.82,Arjun Bose,West,Surat,34,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0694,122,1,4268.09,Deepak Mukherjee,North,Lucknow,29,Male,Organic Search,2,1,1,4,At Risk,0,At Risk
+CUST0695,150,2,5504.12,Sai Reddy,West,Mumbai,23,Female,Organic Search,2,1,1,4,At Risk,0,At Risk
+CUST0696,58,4,27550.13,Isha Reddy,West,Surat,43,Female,Paid Ads,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0697,483,4,52531.03999999999,Isha Das,East,Patna,44,Male,Email Campaign,1,2,3,6,Potential Loyalists,3,Potential Loyalists
+CUST0698,85,5,92812.28,Swati Chopra,West,Pune,25,Male,Organic Search,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0699,58,10,61020.189999999995,Pooja Joshi,North,Chandigarh,36,Female,Organic Search,3,4,3,10,Champions,1,Champions
+CUST0700,10,12,82780.35,Aditya Singh,North,Lucknow,59,Male,Email Campaign,4,4,3,11,Champions,1,Champions
+CUST0701,25,5,104626.03,Sneha Singh,East,Patna,18,Female,Social Media,4,2,4,10,Champions,2,Loyal Customers
+CUST0702,186,15,171195.95,Manish Chopra,West,Surat,46,Female,Email Campaign,2,4,4,10,Champions,1,Champions
+CUST0703,232,2,10277.970000000001,Shreya Rao,West,Surat,62,Female,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0704,340,2,9451.14,Vikram Joshi,North,Chandigarh,52,Male,Social Media,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0705,2,9,87502.65,Priya Singh,West,Surat,57,Female,Email Campaign,4,3,3,10,Champions,1,Champions
+CUST0706,245,2,14666.92,Naveen Sharma,West,Pune,31,Female,Organic Search,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0707,3,24,192734.78,Isha Menon,West,Pune,52,Female,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0708,36,6,77302.94,Anil Kumar,South,Chennai,62,Male,Social Media,4,3,3,10,Champions,2,Loyal Customers
+CUST0709,22,15,177847.44,Kiran Rao,East,Bhubaneswar,37,Female,Referral,4,4,4,12,Champions,1,Champions
+CUST0710,203,2,3169.29,Reyansh Reddy,South,Hyderabad,30,Male,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0711,282,2,13937.619999999999,Neha Kumar,East,Kolkata,55,Female,Paid Ads,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0712,342,2,34058.88,Rohan Menon,North,Delhi,63,Male,Organic Search,1,1,2,4,At Risk,0,At Risk
+CUST0713,72,10,97409.42,Sanjay Gupta,West,Ahmedabad,25,Female,Organic Search,3,4,3,10,Champions,1,Champions
+CUST0714,264,2,1243.71,Neha Mukherjee,East,Patna,60,Male,Paid Ads,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0715,22,20,311173.4,Kiran Verma,South,Bengaluru,37,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0716,355,2,42890.64,Kavya Chopra,West,Ahmedabad,50,Female,Email Campaign,1,1,2,4,At Risk,0,At Risk
+CUST0717,363,1,1257.45,Ramesh Pillai,North,Chandigarh,43,Female,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0718,287,5,136525.21,Nisha Verma,East,Kolkata,56,Male,Referral,1,2,4,7,Potential Loyalists,2,Loyal Customers
+CUST0719,255,3,56123.86,Pooja Chopra,East,Patna,38,Male,Social Media,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0720,286,13,83895.03,Manish Das,East,Patna,59,Female,Paid Ads,1,4,3,8,Loyal Customers,1,Champions
+CUST0721,71,6,72486.56999999999,Riya Singh,West,Surat,60,Male,Paid Ads,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0722,138,5,14342.880000000001,Neha Verma,South,Kochi,58,Female,Referral,2,2,1,5,At Risk,2,Loyal Customers
+CUST0723,51,1,11107.03,Vikram Chopra,South,Kochi,26,Female,Organic Search,3,1,1,5,At Risk,0,At Risk
+CUST0724,102,4,40319.0,Divya Bose,East,Patna,41,Female,Organic Search,3,2,2,7,Potential Loyalists,2,Loyal Customers
+CUST0725,106,13,124272.13,Sai Joshi,North,Lucknow,54,Male,Email Campaign,3,4,4,11,Champions,1,Champions
+CUST0726,728,1,5468.08,Sanjay Gupta,North,Delhi,58,Female,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0727,594,4,11431.74,Rohan Patel,South,Bengaluru,34,Female,Social Media,1,2,1,4,At Risk,3,Potential Loyalists
+CUST0728,9,41,479347.77,Pooja Verma,North,Lucknow,41,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0729,14,7,101368.09,Naveen Kapoor,South,Bengaluru,38,Female,Referral,4,3,3,10,Champions,1,Champions
+CUST0730,170,5,31140.55,Sanjay Reddy,East,Kolkata,56,Male,Social Media,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0731,108,3,15753.14,Ramesh Nair,South,Bengaluru,58,Male,Organic Search,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0732,512,4,80373.02,Zara Nair,South,Chennai,56,Male,Social Media,1,2,3,6,Potential Loyalists,3,Potential Loyalists
+CUST0733,168,9,40817.48,Vihaan Das,East,Patna,30,Male,Social Media,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0734,3,12,66418.17,Diya Das,North,Delhi,28,Female,Referral,4,4,3,11,Champions,1,Champions
+CUST0735,20,6,28137.57,Rohan Sharma,South,Bengaluru,63,Male,Referral,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0736,513,1,2964.08,Karthik Mukherjee,South,Chennai,36,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0737,344,1,4167.73,Kavya Kapoor,East,Guwahati,28,Male,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0738,609,3,20629.51,Ramesh Pillai,North,Chandigarh,30,Female,Referral,1,2,2,5,At Risk,3,Potential Loyalists
+CUST0739,543,1,5171.79,Kiran Iyer,South,Bengaluru,63,Female,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0740,109,2,43422.21000000001,Diya Gupta,East,Bhubaneswar,62,Male,Email Campaign,3,1,2,6,Potential Loyalists,2,Loyal Customers
+CUST0741,348,3,30557.43,Ramesh Menon,South,Hyderabad,18,Male,Organic Search,1,2,2,5,At Risk,0,At Risk
+CUST0743,92,5,10803.8,Meera Joshi,East,Patna,61,Male,Paid Ads,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0744,228,5,77631.74,Ananya Verma,North,Delhi,36,Male,Organic Search,2,2,3,7,Potential Loyalists,2,Loyal Customers
+CUST0745,283,1,20920.31,Sneha Nair,North,Jaipur,29,Male,Social Media,1,1,2,4,At Risk,0,At Risk
+CUST0746,24,2,8094.950000000001,Riya Iyer,North,Lucknow,25,Female,Referral,4,1,1,6,Potential Loyalists,0,At Risk
+CUST0747,95,3,57480.409999999996,Isha Patel,North,Delhi,25,Male,Email Campaign,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0748,184,2,31581.12,Nisha Kapoor,South,Chennai,62,Male,Paid Ads,2,1,2,5,At Risk,0,At Risk
+CUST0749,169,4,24811.140000000003,Ramesh Menon,South,Hyderabad,29,Male,Email Campaign,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0750,411,2,10937.45,Pooja Verma,North,Chandigarh,50,Female,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0751,130,14,200792.06,Kavya Desai,North,Delhi,62,Male,Social Media,2,4,4,10,Champions,1,Champions
+CUST0752,97,17,143313.09,Karthik Menon,North,Lucknow,43,Female,Referral,3,4,4,11,Champions,1,Champions
+CUST0753,11,5,55931.45999999999,Manish Iyer,South,Bengaluru,56,Male,Referral,4,2,3,9,Loyal Customers,2,Loyal Customers
+CUST0754,75,9,159511.06,Riya Pillai,North,Jaipur,45,Male,Email Campaign,3,3,4,10,Champions,1,Champions
+CUST0755,46,14,116548.34999999999,Naveen Kapoor,North,Lucknow,22,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0756,59,6,50300.79000000001,Priya Reddy,West,Mumbai,25,Male,Referral,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0758,154,6,114459.38,Tara Reddy,North,Chandigarh,44,Female,Paid Ads,2,3,4,9,Loyal Customers,2,Loyal Customers
+CUST0759,41,9,41969.520000000004,Aditya Sharma,East,Patna,63,Female,Social Media,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0760,89,5,77850.2,Manisha Kapoor,North,Lucknow,40,Male,Social Media,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0762,114,9,136547.46,Anil Pillai,East,Bhubaneswar,62,Male,Email Campaign,2,3,4,9,Loyal Customers,1,Champions
+CUST0763,60,19,146052.2,Saanvi Kapoor,East,Patna,64,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0764,336,2,11257.67,Priya Singh,North,Jaipur,40,Female,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0765,80,8,95896.26,Anil Das,West,Pune,64,Female,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0766,306,3,9838.9,Ramesh Singh,West,Mumbai,37,Male,Paid Ads,1,2,1,4,At Risk,0,At Risk
+CUST0767,154,3,13713.48,Meera Malhotra,East,Patna,35,Female,Email Campaign,2,2,1,5,At Risk,0,At Risk
+CUST0768,677,2,6151.4,Reyansh Iyer,North,Delhi,35,Male,Organic Search,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0769,658,1,41096.77,Ramesh Pillai,South,Kochi,19,Female,Social Media,1,1,2,4,At Risk,3,Potential Loyalists
+CUST0770,15,16,115003.7,Vikram Iyer,South,Hyderabad,21,Male,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0771,5,3,10056.11,Zara Malhotra,West,Ahmedabad,47,Male,Paid Ads,4,2,1,7,Potential Loyalists,0,At Risk
+CUST0772,41,10,79926.67,Meera Malhotra,South,Bengaluru,50,Female,Paid Ads,4,4,3,11,Champions,1,Champions
+CUST0773,233,4,18103.38,Reyansh Das,West,Ahmedabad,53,Female,Email Campaign,2,2,2,6,Potential Loyalists,0,At Risk
+CUST0774,195,1,5382.22,Zara Nair,West,Surat,35,Male,Email Campaign,2,1,1,4,At Risk,0,At Risk
+CUST0775,142,8,62713.6,Ishaan Rao,West,Ahmedabad,54,Female,Email Campaign,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0776,399,1,2679.12,Karthik Verma,South,Bengaluru,36,Male,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0777,287,2,8751.68,Vikram Singh,West,Surat,64,Male,Paid Ads,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0778,678,1,2261.93,Ananya Chopra,East,Kolkata,45,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0779,278,5,66551.22,Riya Singh,North,Chandigarh,57,Male,Email Campaign,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0780,28,19,215011.04,Rahul Mukherjee,North,Delhi,37,Male,Email Campaign,4,4,4,12,Champions,1,Champions
+CUST0781,61,37,395278.63,Sanjay Mukherjee,West,Surat,50,Female,Paid Ads,3,4,4,11,Champions,1,Champions
+CUST0782,180,4,303841.02,Neha Rao,North,Chandigarh,29,Male,Email Campaign,2,2,4,8,Loyal Customers,2,Loyal Customers
+CUST0783,38,3,24779.809999999998,Pooja Menon,South,Bengaluru,32,Male,Referral,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0784,171,2,8689.24,Anil Sharma,South,Kochi,58,Female,Referral,2,1,1,4,At Risk,0,At Risk
+CUST0785,2,8,50559.130000000005,Manisha Patel,North,Lucknow,56,Male,Email Campaign,4,3,2,9,Loyal Customers,2,Loyal Customers
+CUST0786,302,2,12847.099999999999,Krishna Menon,South,Bengaluru,19,Male,Paid Ads,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0787,25,22,203388.77000000002,Karthik Joshi,North,Chandigarh,46,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0788,231,3,6242.84,Vikram Patel,North,Delhi,58,Female,Paid Ads,2,2,1,5,At Risk,0,At Risk
+CUST0789,14,42,452898.11,Riya Pillai,North,Lucknow,27,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0790,150,12,88594.86,Pooja Kapoor,West,Mumbai,19,Female,Email Campaign,2,4,3,9,Loyal Customers,1,Champions
+CUST0791,19,13,107937.79,Priya Desai,North,Delhi,28,Female,Paid Ads,4,4,4,12,Champions,1,Champions
+CUST0792,79,6,34204.619999999995,Shreya Kumar,West,Ahmedabad,30,Male,Referral,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0794,157,3,13176.07,Shreya Verma,North,Jaipur,31,Male,Social Media,2,2,1,5,At Risk,0,At Risk
+CUST0795,280,3,15097.990000000002,Shreya Sharma,North,Lucknow,35,Female,Paid Ads,1,2,1,4,At Risk,0,At Risk
+CUST0796,220,1,6738.24,Isha Sharma,South,Bengaluru,26,Male,Social Media,2,1,1,4,At Risk,0,At Risk
+CUST0797,255,4,51306.53,Isha Desai,West,Ahmedabad,56,Female,Social Media,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0798,502,4,28842.260000000002,Deepak Gupta,West,Surat,45,Male,Organic Search,1,2,2,5,At Risk,3,Potential Loyalists
+CUST0799,30,7,171848.49,Vivaan Rao,North,Jaipur,20,Female,Referral,4,3,4,11,Champions,1,Champions
+CUST0800,69,7,104287.18,Nisha Malhotra,North,Jaipur,37,Male,Referral,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0802,5,28,213561.49,Swati Menon,South,Hyderabad,44,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0803,660,1,9574.22,Aditya Rao,South,Chennai,19,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0804,241,4,65670.21999999999,Ishaan Rao,West,Mumbai,46,Female,Email Campaign,1,2,3,6,Potential Loyalists,2,Loyal Customers
+CUST0805,298,6,57565.36,Ishaan Gupta,West,Pune,55,Female,Social Media,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0806,24,11,128076.30999999998,Neha Patel,West,Mumbai,20,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0808,55,8,125849.98999999999,Krishna Mukherjee,West,Surat,47,Male,Social Media,3,3,4,10,Champions,1,Champions
+CUST0809,56,8,161508.85,Naveen Desai,East,Kolkata,57,Male,Email Campaign,3,3,4,10,Champions,1,Champions
+CUST0810,142,2,20112.73,Reyansh Menon,East,Bhubaneswar,19,Male,Social Media,2,1,2,5,At Risk,0,At Risk
+CUST0811,4,7,75172.92,Zara Bose,South,Chennai,34,Female,Paid Ads,4,3,3,10,Champions,2,Loyal Customers
+CUST0812,17,18,124001.52,Vihaan Rao,West,Pune,58,Male,Social Media,4,4,4,12,Champions,1,Champions
+CUST0813,7,45,639425.31,Karthik Iyer,East,Kolkata,29,Female,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0814,265,1,14191.31,Kavya Menon,South,Kochi,52,Male,Referral,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0815,85,3,86897.9,Saanvi Pillai,West,Ahmedabad,60,Female,Referral,3,2,3,8,Loyal Customers,2,Loyal Customers
+CUST0816,71,5,66873.43000000001,Suresh Pillai,North,Chandigarh,18,Female,Organic Search,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0817,157,3,35316.619999999995,Isha Chopra,East,Bhubaneswar,62,Female,Paid Ads,2,2,2,6,Potential Loyalists,2,Loyal Customers
+CUST0818,315,4,23594.13,Tara Malhotra,North,Lucknow,32,Male,Organic Search,1,2,2,5,At Risk,0,At Risk
+CUST0820,25,26,258229.1,Krishna Joshi,East,Bhubaneswar,54,Male,Organic Search,4,4,4,12,Champions,1,Champions
+CUST0821,62,25,239140.14,Saanvi Rao,West,Ahmedabad,38,Male,Organic Search,3,4,4,11,Champions,1,Champions
+CUST0823,99,4,8552.2,Karthik Reddy,East,Bhubaneswar,42,Male,Social Media,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0824,290,2,53633.18,Pooja Patel,North,Lucknow,40,Male,Email Campaign,1,1,3,5,At Risk,2,Loyal Customers
+CUST0825,290,2,8979.560000000001,Aditya Kumar,West,Ahmedabad,41,Female,Email Campaign,1,1,1,3,Lost / Dormant,0,At Risk
+CUST0826,231,5,84855.66,Divya Kapoor,West,Ahmedabad,55,Male,Referral,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0827,197,7,35186.6,Shreya Gupta,North,Chandigarh,45,Male,Organic Search,2,3,2,7,Potential Loyalists,2,Loyal Customers
+CUST0828,41,11,198309.41,Diya Das,East,Guwahati,38,Male,Referral,4,4,4,12,Champions,1,Champions
+CUST0829,50,9,113357.46,Sanjay Desai,North,Delhi,60,Female,Paid Ads,3,3,4,10,Champions,1,Champions
+CUST0830,434,2,6377.01,Lakshmi Nair,West,Ahmedabad,35,Female,Email Campaign,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0831,315,7,99966.87,Naveen Pillai,North,Lucknow,53,Female,Organic Search,1,3,3,7,Potential Loyalists,2,Loyal Customers
+CUST0832,365,1,3021.39,Zara Mukherjee,West,Pune,52,Female,Paid Ads,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0833,55,5,31949.94,Pooja Patel,North,Jaipur,62,Male,Paid Ads,3,3,2,8,Loyal Customers,2,Loyal Customers
+CUST0834,24,4,31349.940000000002,Kiran Verma,East,Bhubaneswar,26,Female,Organic Search,4,2,2,8,Loyal Customers,2,Loyal Customers
+CUST0836,167,2,8160.03,Meera Verma,North,Delhi,47,Male,Organic Search,2,1,1,4,At Risk,0,At Risk
+CUST0837,45,3,16206.17,Kiran Rao,North,Delhi,61,Female,Organic Search,3,2,1,6,Potential Loyalists,0,At Risk
+CUST0838,8,21,298076.31,Nisha Kumar,East,Bhubaneswar,51,Female,Social Media,4,4,4,12,Champions,1,Champions
+CUST0839,425,1,10881.64,Diya Iyer,West,Ahmedabad,49,Male,Referral,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0841,466,5,73863.59,Rahul Kapoor,West,Surat,20,Female,Paid Ads,1,3,3,7,Potential Loyalists,3,Potential Loyalists
+CUST0842,70,8,70348.04000000001,Shreya Iyer,North,Lucknow,45,Male,Social Media,3,3,3,9,Loyal Customers,2,Loyal Customers
+CUST0843,554,1,545.48,Deepak Singh,North,Chandigarh,61,Male,Social Media,1,1,1,3,Lost / Dormant,3,Potential Loyalists
+CUST0844,4,18,99925.27,Kiran Bose,West,Surat,32,Male,Social Media,4,4,3,11,Champions,1,Champions
+CUST0845,164,8,90909.72,Sanjay Kumar,North,Lucknow,58,Male,Email Campaign,2,3,3,8,Loyal Customers,2,Loyal Customers
+CUST0846,295,6,40459.58,Kavya Malhotra,West,Surat,40,Male,Email Campaign,1,3,2,6,Potential Loyalists,2,Loyal Customers
+CUST0847,69,12,92180.68,Vivaan Reddy,South,Hyderabad,57,Male,Email Campaign,3,4,3,10,Champions,1,Champions
+CUST0849,298,7,23576.52,Kavya Gupta,South,Hyderabad,49,Female,Paid Ads,1,3,2,6,Potential Loyalists,2,Loyal Customers
+CUST0850,16,7,85874.89,Anil Desai,West,Mumbai,53,Female,Referral,4,3,3,10,Champions,2,Loyal Customers

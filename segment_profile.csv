@@ -1,0 +1,5 @@
+cluster_segment,customers,avg_recency_days,avg_frequency,avg_monetary,total_revenue
+Champions,242,56.8,15.3,164487.6,39806010.2
+Loyal Customers,284,125.9,5.5,56380.9,16012161.7
+At Risk,160,193.8,2.2,11982.4,1917176.4
+Potential Loyalists,91,514.0,1.6,16754.6,1524671.4

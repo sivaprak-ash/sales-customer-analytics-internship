@@ -1,0 +1,851 @@
+customer_id,customer_name,region,age,gender,acquisition_channel,city
+CUST0001,Nisha Desai,South,28,Male,Social Media,Chennai
+CUST0002,Ramesh Kapoor,East,32,Female,Email Campaign,Patna
+CUST0003,Krishna Gupta,South,36,Male,Organic Search,Bengaluru
+CUST0004,Tara Menon,North,24,Male,Organic Search,Chandigarh
+CUST0005,Ananya Nair,East,45,Female,Organic Search,Bhubaneswar
+CUST0006,Swati Iyer,North,60,Male,Social Media,Lucknow
+CUST0007,Karthik Verma,North,22,Female,Social Media,Jaipur
+CUST0008,Vikram Pillai,West,22,Female,Paid Ads,Mumbai
+CUST0009,Sanjay Rao,South,47,Male,Paid Ads,Hyderabad
+CUST0010,Vivaan Sharma,East,49,Male,Organic Search,Patna
+CUST0011,Diya Pillai,North,25,Male,Email Campaign,Lucknow
+CUST0012,Anil Das,North,27,Male,Paid Ads,Delhi
+CUST0013,Manish Kumar,East,55,Male,Paid Ads,Bhubaneswar
+CUST0014,Naveen Bose,North,64,Female,Social Media,Chandigarh
+CUST0015,Meera Kapoor,West,49,Female,Email Campaign,Surat
+CUST0016,Aditya Reddy,West,45,Male,Organic Search,Pune
+CUST0017,Reyansh Patel,West,34,Female,Paid Ads,Mumbai
+CUST0018,Nisha Mukherjee,West,48,Female,Email Campaign,Surat
+CUST0019,Vihaan Malhotra,North,25,Female,Email Campaign,Lucknow
+CUST0020,Ishaan Verma,East,57,Female,Organic Search,Bhubaneswar
+CUST0021,Zara Kapoor,East,42,Female,Email Campaign,Bhubaneswar
+CUST0022,Reyansh Pillai,East,26,Male,Email Campaign,Guwahati
+CUST0023,Krishna Kapoor,East,19,Male,Email Campaign,Patna
+CUST0024,Divya Malhotra,South,32,Female,Paid Ads,Kochi
+CUST0025,Riya Nair,East,20,Male,Organic Search,Guwahati
+CUST0026,Swati Nair,South,53,Female,Email Campaign,Chennai
+CUST0027,Vivaan Rao,South,21,Female,Email Campaign,Kochi
+CUST0028,Vihaan Mukherjee,West,31,Male,Paid Ads,Ahmedabad
+CUST0029,Deepak Pillai,South,58,Male,Organic Search,Bengaluru
+CUST0030,Sneha Kumar,North,58,Male,Social Media,Chandigarh
+CUST0031,Kiran Malhotra,South,42,Female,Paid Ads,Bengaluru
+CUST0032,Neha Bose,West,27,Male,Organic Search,Ahmedabad
+CUST0033,Meera Singh,South,38,Male,Email Campaign,Hyderabad
+CUST0034,Kavya Singh,North,53,Male,Organic Search,Lucknow
+CUST0035,Rahul Bose,North,29,Male,Organic Search,Lucknow
+CUST0036,Saanvi Kapoor,North,44,Male,Organic Search,Lucknow
+CUST0037,Vikram Chopra,West,57,Male,Social Media,Surat
+CUST0038,Ramesh Kapoor,West,19,Female,Organic Search,Ahmedabad
+CUST0039,Aarav Gupta,East,30,Male,Social Media,Bhubaneswar
+CUST0040,Ishaan Sharma,West,49,Male,Email Campaign,Ahmedabad
+CUST0041,Krishna Menon,North,48,Male,Social Media,Lucknow
+CUST0042,Riya Singh,North,33,Male,Email Campaign,Chandigarh
+CUST0043,Divya Iyer,West,49,Female,Email Campaign,Ahmedabad
+CUST0044,Shreya Reddy,South,49,Female,Social Media,Kochi
+CUST0045,Nisha Patel,West,51,Male,Paid Ads,Surat
+CUST0046,Naveen Gupta,West,28,Female,Referral,Surat
+CUST0047,Ishaan Singh,North,27,Male,Organic Search,Delhi
+CUST0048,Diya Verma,East,32,Male,Referral,Patna
+CUST0049,Shreya Bose,North,34,Female,Organic Search,Lucknow
+CUST0050,Suresh Reddy,East,57,Female,Organic Search,Kolkata
+CUST0051,Divya Pillai,North,35,Female,Email Campaign,Lucknow
+CUST0052,Swati Iyer,West,26,Male,Organic Search,Mumbai
+CUST0053,Aarav Iyer,North,42,Female,Organic Search,Delhi
+CUST0054,Lakshmi Kapoor,North,57,Male,Social Media,Jaipur
+CUST0055,Kavya Iyer,North,31,Male,Referral,Jaipur
+CUST0056,Aarav Reddy,West,42,Female,Social Media,Mumbai
+CUST0057,Deepak Malhotra,West,39,Male,Organic Search,Surat
+CUST0058,Nisha Patel,West,47,Female,Email Campaign,Mumbai
+CUST0059,Meera Kapoor,West,37,Female,Social Media,Pune
+CUST0060,Deepak Kumar,East,38,Male,Social Media,Guwahati
+CUST0061,Isha Joshi,East,61,Male,Paid Ads,Guwahati
+CUST0062,Pooja Gupta,South,49,Female,Organic Search,Kochi
+CUST0063,Pooja Nair,West,63,Male,Email Campaign,Pune
+CUST0064,Sanjay Reddy,East,38,Female,Social Media,Kolkata
+CUST0065,Suresh Gupta,North,52,Female,Social Media,Lucknow
+CUST0066,Meera Menon,West,49,Male,Email Campaign,Surat
+CUST0067,Ramesh Nair,South,47,Female,Organic Search,Chennai
+CUST0068,Isha Gupta,South,56,Female,Paid Ads,Bengaluru
+CUST0069,Karthik Verma,South,29,Male,Social Media,Hyderabad
+CUST0070,Sai Pillai,North,58,Female,Paid Ads,Jaipur
+CUST0071,Zara Menon,East,64,Male,Referral,Patna
+CUST0072,Naveen Gupta,North,35,Female,Organic Search,Chandigarh
+CUST0073,Shreya Sharma,West,38,Female,Referral,Ahmedabad
+CUST0074,Manish Desai,South,30,Male,Referral,Chennai
+CUST0075,Isha Patel,North,38,Male,Referral,Jaipur
+CUST0076,Aditya Gupta,North,25,Female,Organic Search,Jaipur
+CUST0077,Sai Singh,East,63,Male,Organic Search,Kolkata
+CUST0078,Manish Patel,East,57,Female,Email Campaign,Kolkata
+CUST0079,Lakshmi Sharma,South,63,Male,Paid Ads,Chennai
+CUST0080,Vikram Kapoor,North,24,Female,Paid Ads,Lucknow
+CUST0081,Pooja Patel,North,40,Female,Email Campaign,Lucknow
+CUST0082,Diya Gupta,East,61,Female,Email Campaign,Guwahati
+CUST0083,Vivaan Iyer,North,49,Male,Referral,Lucknow
+CUST0084,Lakshmi Das,North,28,Female,Email Campaign,Chandigarh
+CUST0085,Riya Das,North,39,Female,Social Media,Jaipur
+CUST0086,Vivaan Verma,East,39,Male,Paid Ads,Bhubaneswar
+CUST0087,Naveen Reddy,South,60,Male,Email Campaign,Chennai
+CUST0088,Pooja Sharma,West,42,Male,Social Media,Pune
+CUST0089,Aarav Joshi,South,39,Female,Social Media,Chennai
+CUST0090,Vivaan Pillai,West,45,Female,Social Media,Surat
+CUST0091,Deepak Rao,North,46,Male,Social Media,Delhi
+CUST0092,Pooja Nair,South,30,Female,Referral,Hyderabad
+CUST0093,Ananya Das,West,35,Male,Social Media,Ahmedabad
+CUST0094,Manisha Reddy,East,19,Male,Referral,Guwahati
+CUST0095,Sneha Rao,East,46,Female,Referral,Kolkata
+CUST0096,Karthik Menon,South,38,Female,Social Media,Kochi
+CUST0097,Priya Sharma,South,32,Male,Paid Ads,Chennai
+CUST0098,Ishaan Rao,North,44,Male,Social Media,Chandigarh
+CUST0099,Priya Iyer,South,48,Female,Social Media,Hyderabad
+CUST0100,Zara Nair,North,32,Male,Social Media,Jaipur
+CUST0101,Tara Iyer,North,40,Male,Paid Ads,Chandigarh
+CUST0102,Tara Desai,East,41,Male,Organic Search,Patna
+CUST0103,Pooja Gupta,East,61,Female,Organic Search,Guwahati
+CUST0104,Shreya Singh,West,30,Female,Referral,Surat
+CUST0105,Nisha Mukherjee,East,39,Male,Referral,Patna
+CUST0106,Swati Sharma,East,60,Female,Paid Ads,Kolkata
+CUST0107,Ananya Mukherjee,South,54,Female,Email Campaign,Bengaluru
+CUST0108,Suresh Kumar,East,50,Male,Organic Search,Guwahati
+CUST0109,Divya Gupta,West,20,Female,Referral,Pune
+CUST0110,Priya Bose,South,36,Female,Organic Search,Chennai
+CUST0111,Vivaan Sharma,West,40,Male,Paid Ads,Ahmedabad
+CUST0112,Diya Reddy,East,46,Male,Paid Ads,Bhubaneswar
+CUST0113,Lakshmi Patel,West,47,Female,Email Campaign,Pune
+CUST0114,Divya Joshi,South,56,Female,Email Campaign,Chennai
+CUST0115,Priya Iyer,North,61,Female,Paid Ads,Lucknow
+CUST0116,Zara Sharma,West,64,Male,Referral,Pune
+CUST0117,Vikram Desai,West,42,Female,Organic Search,Pune
+CUST0118,Ananya Das,South,54,Male,Social Media,Chennai
+CUST0119,Krishna Nair,South,64,Male,Email Campaign,Kochi
+CUST0120,Manisha Singh,West,25,Female,Social Media,Pune
+CUST0121,Zara Iyer,East,59,Male,Referral,Guwahati
+CUST0122,Anil Iyer,West,33,Male,Email Campaign,Surat
+CUST0123,Anil Mukherjee,South,25,Male,Social Media,Hyderabad
+CUST0124,Saanvi Verma,North,18,Male,Referral,Jaipur
+CUST0125,Divya Bose,North,61,Male,Organic Search,Delhi
+CUST0126,Kiran Sharma,East,22,Female,Referral,Bhubaneswar
+CUST0127,Vihaan Sharma,West,20,Male,Email Campaign,Ahmedabad
+CUST0128,Kavya Bose,North,18,Female,Paid Ads,Lucknow
+CUST0129,Zara Singh,West,21,Female,Organic Search,Pune
+CUST0130,Reyansh Iyer,South,57,Female,Social Media,Bengaluru
+CUST0131,Riya Sharma,North,52,Male,Email Campaign,Jaipur
+CUST0132,Diya Joshi,East,49,Female,Paid Ads,Bhubaneswar
+CUST0133,Karthik Malhotra,South,59,Female,Referral,Hyderabad
+CUST0134,Sanjay Rao,East,51,Female,Paid Ads,Kolkata
+CUST0135,Manisha Chopra,South,60,Female,Email Campaign,Kochi
+CUST0136,Krishna Verma,North,42,Female,Email Campaign,Delhi
+CUST0137,Rahul Sharma,East,27,Male,Paid Ads,Guwahati
+CUST0138,Naveen Kapoor,East,38,Female,Referral,Guwahati
+CUST0139,Shreya Reddy,South,63,Female,Paid Ads,Bengaluru
+CUST0140,Tara Nair,East,56,Female,Email Campaign,Patna
+CUST0141,Divya Das,South,44,Female,Email Campaign,Chennai
+CUST0142,Riya Pillai,South,44,Male,Social Media,Kochi
+CUST0143,Naveen Malhotra,South,19,Female,Social Media,Hyderabad
+CUST0144,Sai Iyer,South,58,Male,Organic Search,Bengaluru
+CUST0145,Lakshmi Das,North,30,Male,Email Campaign,Lucknow
+CUST0146,Neha Iyer,South,26,Male,Social Media,Chennai
+CUST0147,Shreya Desai,West,53,Male,Paid Ads,Pune
+CUST0148,Rahul Sharma,East,39,Female,Referral,Patna
+CUST0149,Aditya Mukherjee,West,59,Male,Paid Ads,Surat
+CUST0150,Anil Kumar,North,43,Male,Referral,Delhi
+CUST0151,Neha Iyer,West,29,Female,Social Media,Surat
+CUST0152,Swati Malhotra,East,34,Female,Organic Search,Patna
+CUST0153,Vikram Mukherjee,West,31,Female,Paid Ads,Mumbai
+CUST0154,Pooja Kapoor,North,31,Female,Paid Ads,Chandigarh
+CUST0155,Karthik Verma,South,51,Female,Paid Ads,Chennai
+CUST0156,Manish Kumar,West,37,Male,Referral,Pune
+CUST0157,Vivaan Das,North,28,Male,Social Media,Lucknow
+CUST0158,Swati Sharma,North,33,Female,Paid Ads,Lucknow
+CUST0159,Ishaan Menon,East,48,Male,Paid Ads,Guwahati
+CUST0160,Nisha Kumar,East,23,Female,Organic Search,Bhubaneswar
+CUST0161,Deepak Iyer,West,36,Male,Organic Search,Pune
+CUST0162,Anil Chopra,South,54,Male,Social Media,Bengaluru
+CUST0163,Reyansh Nair,North,21,Female,Social Media,Lucknow
+CUST0164,Zara Sharma,West,64,Female,Email Campaign,Surat
+CUST0165,Krishna Malhotra,North,21,Female,Organic Search,Lucknow
+CUST0166,Priya Malhotra,North,37,Female,Email Campaign,Delhi
+CUST0167,Diya Joshi,South,27,Male,Referral,Chennai
+CUST0168,Suresh Kapoor,South,41,Male,Email Campaign,Chennai
+CUST0169,Naveen Verma,West,52,Female,Paid Ads,Ahmedabad
+CUST0170,Vivaan Joshi,South,43,Female,Email Campaign,Hyderabad
+CUST0171,Anil Das,South,54,Male,Social Media,Hyderabad
+CUST0172,Sai Kapoor,West,55,Female,Referral,Mumbai
+CUST0173,Lakshmi Sharma,South,38,Male,Paid Ads,Kochi
+CUST0174,Krishna Pillai,East,57,Male,Email Campaign,Patna
+CUST0175,Arjun Gupta,North,56,Male,Referral,Lucknow
+CUST0176,Vihaan Rao,North,38,Female,Referral,Jaipur
+CUST0177,Pooja Desai,North,27,Female,Paid Ads,Chandigarh
+CUST0178,Sanjay Kapoor,North,55,Male,Email Campaign,Chandigarh
+CUST0179,Divya Singh,West,63,Female,Referral,Pune
+CUST0180,Priya Chopra,North,21,Male,Referral,Jaipur
+CUST0181,Sanjay Joshi,North,62,Male,Organic Search,Jaipur
+CUST0182,Riya Joshi,North,37,Male,Referral,Delhi
+CUST0183,Naveen Reddy,North,34,Male,Organic Search,Jaipur
+CUST0184,Deepak Patel,East,24,Male,Email Campaign,Guwahati
+CUST0185,Diya Sharma,North,21,Female,Email Campaign,Jaipur
+CUST0186,Aarav Kapoor,East,46,Female,Email Campaign,Patna
+CUST0187,Sneha Bose,West,31,Female,Social Media,Ahmedabad
+CUST0188,Anil Singh,South,20,Male,Email Campaign,Chennai
+CUST0189,Aarav Bose,North,41,Male,Referral,Lucknow
+CUST0190,Nisha Reddy,South,54,Male,Paid Ads,Hyderabad
+CUST0191,Karthik Iyer,South,33,Male,Organic Search,Kochi
+CUST0192,Diya Bose,West,21,Female,Social Media,Mumbai
+CUST0193,Lakshmi Malhotra,South,41,Male,Email Campaign,Hyderabad
+CUST0194,Naveen Reddy,East,51,Female,Email Campaign,Bhubaneswar
+CUST0195,Sanjay Malhotra,South,47,Female,Paid Ads,Chennai
+CUST0196,Arjun Pillai,South,35,Male,Paid Ads,Kochi
+CUST0197,Priya Bose,South,36,Female,Social Media,Hyderabad
+CUST0198,Rahul Gupta,North,48,Female,Organic Search,Chandigarh
+CUST0199,Kiran Sharma,North,36,Female,Email Campaign,Lucknow
+CUST0200,Sanjay Reddy,East,63,Female,Social Media,Patna
+CUST0201,Suresh Kumar,East,36,Male,Referral,Guwahati
+CUST0202,Arjun Nair,North,39,Male,Referral,Lucknow
+CUST0203,Sneha Desai,East,41,Male,Social Media,Kolkata
+CUST0204,Neha Kumar,North,62,Male,Email Campaign,Delhi
+CUST0205,Tara Sharma,West,29,Female,Social Media,Ahmedabad
+CUST0206,Arjun Chopra,South,47,Male,Email Campaign,Kochi
+CUST0207,Vihaan Bose,South,55,Female,Paid Ads,Kochi
+CUST0208,Vikram Bose,East,48,Female,Social Media,Kolkata
+CUST0209,Vivaan Das,North,53,Male,Email Campaign,Lucknow
+CUST0210,Naveen Desai,North,36,Male,Social Media,Jaipur
+CUST0211,Vikram Pillai,East,62,Female,Social Media,Kolkata
+CUST0212,Divya Sharma,North,53,Female,Email Campaign,Chandigarh
+CUST0213,Shreya Joshi,West,47,Female,Email Campaign,Ahmedabad
+CUST0214,Lakshmi Pillai,South,50,Male,Organic Search,Bengaluru
+CUST0215,Aditya Sharma,East,35,Male,Social Media,Patna
+CUST0216,Shreya Singh,East,45,Male,Referral,Guwahati
+CUST0217,Rohan Menon,North,64,Male,Social Media,Jaipur
+CUST0218,Ramesh Chopra,East,28,Female,Social Media,Guwahati
+CUST0219,Diya Malhotra,West,62,Female,Email Campaign,Ahmedabad
+CUST0220,Vivaan Joshi,North,50,Female,Social Media,Chandigarh
+CUST0221,Divya Das,North,34,Female,Social Media,Lucknow
+CUST0222,Deepak Singh,North,23,Female,Referral,Jaipur
+CUST0223,Ramesh Kumar,North,21,Male,Email Campaign,Chandigarh
+CUST0224,Deepak Verma,West,37,Male,Social Media,Ahmedabad
+CUST0225,Reyansh Nair,North,64,Female,Paid Ads,Lucknow
+CUST0226,Ananya Nair,East,44,Male,Organic Search,Kolkata
+CUST0227,Anil Nair,West,32,Female,Referral,Ahmedabad
+CUST0228,Rohan Reddy,South,23,Female,Social Media,Kochi
+CUST0229,Ishaan Iyer,South,64,Male,Paid Ads,Hyderabad
+CUST0230,Divya Bose,East,31,Female,Social Media,Patna
+CUST0231,Kiran Mukherjee,East,28,Female,Social Media,Bhubaneswar
+CUST0232,Nisha Reddy,West,56,Female,Email Campaign,Mumbai
+CUST0233,Diya Das,South,26,Female,Email Campaign,Bengaluru
+CUST0234,Isha Iyer,South,43,Female,Email Campaign,Bengaluru
+CUST0235,Sanjay Das,South,33,Male,Paid Ads,Chennai
+CUST0236,Zara Bose,South,22,Male,Social Media,Kochi
+CUST0237,Anil Chopra,South,27,Female,Organic Search,Bengaluru
+CUST0238,Tara Das,North,20,Female,Referral,Jaipur
+CUST0239,Kiran Pillai,East,30,Male,Email Campaign,Patna
+CUST0240,Tara Pillai,North,60,Male,Email Campaign,Chandigarh
+CUST0241,Ishaan Gupta,South,47,Female,Social Media,Kochi
+CUST0242,Naveen Malhotra,West,62,Female,Social Media,Pune
+CUST0243,Neha Desai,West,23,Female,Paid Ads,Surat
+CUST0244,Tara Kapoor,South,34,Female,Paid Ads,Chennai
+CUST0245,Priya Reddy,South,62,Male,Email Campaign,Kochi
+CUST0246,Divya Pillai,West,36,Male,Social Media,Mumbai
+CUST0247,Anil Desai,North,59,Female,Organic Search,Chandigarh
+CUST0248,Rahul Nair,North,52,Male,Referral,Jaipur
+CUST0249,Suresh Bose,South,63,Male,Social Media,Bengaluru
+CUST0250,Nisha Chopra,North,43,Male,Social Media,Jaipur
+CUST0251,Nisha Malhotra,West,22,Female,Paid Ads,Mumbai
+CUST0252,Neha Reddy,North,46,Female,Referral,Delhi
+CUST0253,Divya Menon,South,54,Male,Email Campaign,Kochi
+CUST0254,Ananya Mukherjee,West,37,Male,Social Media,Mumbai
+CUST0255,Diya Patel,North,38,Female,Email Campaign,Chandigarh
+CUST0256,Rohan Pillai,East,27,Female,Social Media,Patna
+CUST0257,Riya Rao,West,22,Male,Email Campaign,Ahmedabad
+CUST0258,Reyansh Malhotra,West,53,Male,Referral,Mumbai
+CUST0259,Isha Singh,East,23,Male,Paid Ads,Patna
+CUST0260,Ishaan Mukherjee,East,43,Female,Referral,Guwahati
+CUST0261,Manish Verma,West,21,Male,Organic Search,Mumbai
+CUST0262,Arjun Reddy,East,56,Male,Paid Ads,Patna
+CUST0263,Manisha Joshi,South,56,Female,Referral,Chennai
+CUST0264,Krishna Bose,South,52,Female,Organic Search,Kochi
+CUST0265,Aarav Desai,South,18,Male,Social Media,Bengaluru
+CUST0266,Riya Gupta,West,41,Female,Social Media,Ahmedabad
+CUST0267,Anil Chopra,East,53,Male,Email Campaign,Bhubaneswar
+CUST0268,Vihaan Nair,East,23,Female,Paid Ads,Kolkata
+CUST0269,Sai Joshi,North,58,Male,Social Media,Jaipur
+CUST0270,Nisha Kumar,North,63,Female,Paid Ads,Chandigarh
+CUST0271,Deepak Joshi,East,61,Male,Social Media,Guwahati
+CUST0272,Nisha Iyer,East,48,Female,Email Campaign,Patna
+CUST0273,Isha Mukherjee,East,37,Female,Referral,Kolkata
+CUST0274,Naveen Desai,West,41,Female,Email Campaign,Pune
+CUST0275,Naveen Singh,East,42,Female,Organic Search,Guwahati
+CUST0276,Nisha Sharma,North,53,Female,Social Media,Jaipur
+CUST0277,Aditya Chopra,West,38,Male,Organic Search,Mumbai
+CUST0278,Naveen Das,East,47,Male,Organic Search,Guwahati
+CUST0279,Anil Sharma,North,41,Female,Paid Ads,Chandigarh
+CUST0280,Manisha Rao,West,61,Male,Social Media,Mumbai
+CUST0281,Pooja Chopra,East,59,Female,Organic Search,Patna
+CUST0282,Rahul Bose,East,47,Female,Referral,Guwahati
+CUST0283,Rahul Menon,East,39,Male,Organic Search,Kolkata
+CUST0284,Lakshmi Nair,West,45,Female,Referral,Pune
+CUST0285,Divya Joshi,North,24,Male,Paid Ads,Jaipur
+CUST0286,Zara Mukherjee,North,52,Female,Organic Search,Jaipur
+CUST0287,Kavya Kapoor,South,45,Male,Email Campaign,Hyderabad
+CUST0288,Neha Sharma,East,31,Male,Paid Ads,Guwahati
+CUST0289,Aditya Bose,South,27,Female,Referral,Bengaluru
+CUST0290,Suresh Menon,South,33,Female,Paid Ads,Chennai
+CUST0291,Diya Kumar,North,33,Female,Organic Search,Lucknow
+CUST0292,Pooja Bose,West,48,Female,Social Media,Surat
+CUST0293,Krishna Rao,West,59,Male,Social Media,Surat
+CUST0294,Diya Singh,North,42,Female,Referral,Jaipur
+CUST0295,Naveen Nair,West,30,Male,Referral,Pune
+CUST0296,Deepak Singh,South,23,Female,Social Media,Hyderabad
+CUST0297,Naveen Reddy,East,61,Female,Referral,Patna
+CUST0298,Kiran Das,North,26,Female,Paid Ads,Lucknow
+CUST0299,Ishaan Sharma,East,62,Female,Email Campaign,Kolkata
+CUST0300,Zara Chopra,West,53,Male,Email Campaign,Pune
+CUST0301,Naveen Bose,East,60,Female,Paid Ads,Patna
+CUST0302,Ramesh Chopra,West,37,Male,Email Campaign,Mumbai
+CUST0303,Divya Rao,West,35,Female,Organic Search,Ahmedabad
+CUST0304,Saanvi Joshi,South,60,Male,Paid Ads,Kochi
+CUST0305,Arjun Kapoor,West,38,Female,Referral,Mumbai
+CUST0306,Anil Verma,South,21,Female,Paid Ads,Kochi
+CUST0307,Rohan Mukherjee,South,50,Male,Social Media,Kochi
+CUST0308,Arjun Sharma,South,44,Male,Referral,Chennai
+CUST0309,Aarav Mukherjee,North,24,Female,Social Media,Lucknow
+CUST0310,Pooja Kapoor,North,23,Male,Referral,Jaipur
+CUST0311,Ananya Das,West,32,Male,Email Campaign,Mumbai
+CUST0312,Isha Sharma,South,35,Male,Paid Ads,Bengaluru
+CUST0313,Sneha Patel,North,49,Male,Organic Search,Chandigarh
+CUST0314,Divya Sharma,South,28,Female,Referral,Bengaluru
+CUST0315,Rahul Bose,East,37,Female,Referral,Kolkata
+CUST0316,Sai Das,East,41,Male,Social Media,Patna
+CUST0317,Arjun Reddy,East,32,Male,Email Campaign,Guwahati
+CUST0318,Manisha Iyer,West,24,Male,Social Media,Pune
+CUST0319,Suresh Reddy,South,38,Male,Social Media,Bengaluru
+CUST0320,Lakshmi Kumar,East,59,Male,Email Campaign,Guwahati
+CUST0321,Rohan Joshi,North,43,Male,Organic Search,Chandigarh
+CUST0322,Riya Malhotra,East,61,Male,Social Media,Guwahati
+CUST0323,Ishaan Malhotra,East,31,Female,Social Media,Patna
+CUST0324,Aarav Joshi,East,54,Male,Referral,Guwahati
+CUST0325,Isha Nair,West,38,Female,Email Campaign,Pune
+CUST0326,Aarav Das,North,35,Female,Paid Ads,Jaipur
+CUST0327,Swati Verma,South,22,Female,Organic Search,Chennai
+CUST0328,Naveen Singh,North,20,Female,Organic Search,Jaipur
+CUST0329,Nisha Verma,South,40,Female,Email Campaign,Bengaluru
+CUST0330,Aditya Mukherjee,West,43,Female,Referral,Pune
+CUST0331,Diya Sharma,West,54,Female,Referral,Ahmedabad
+CUST0332,Arjun Das,West,41,Female,Email Campaign,Surat
+CUST0333,Suresh Kapoor,West,36,Female,Referral,Mumbai
+CUST0334,Lakshmi Malhotra,South,42,Female,Organic Search,Kochi
+CUST0335,Vivaan Menon,East,38,Male,Organic Search,Guwahati
+CUST0336,Nisha Rao,South,29,Male,Paid Ads,Chennai
+CUST0337,Sneha Rao,North,58,Male,Email Campaign,Jaipur
+CUST0338,Sneha Mukherjee,West,50,Female,Social Media,Mumbai
+CUST0339,Sanjay Kapoor,West,21,Female,Social Media,Mumbai
+CUST0340,Manish Joshi,North,59,Female,Paid Ads,Jaipur
+CUST0341,Sneha Desai,South,24,Female,Paid Ads,Kochi
+CUST0342,Manisha Sharma,East,39,Male,Referral,Patna
+CUST0343,Vikram Kapoor,East,50,Male,Paid Ads,Patna
+CUST0344,Sanjay Kumar,North,34,Female,Paid Ads,Lucknow
+CUST0345,Riya Reddy,East,41,Female,Social Media,Bhubaneswar
+CUST0346,Ramesh Nair,South,51,Female,Referral,Kochi
+CUST0347,Rohan Das,South,45,Male,Paid Ads,Chennai
+CUST0348,Rohan Das,North,60,Female,Paid Ads,Lucknow
+CUST0349,Zara Reddy,South,58,Female,Referral,Kochi
+CUST0350,Sneha Rao,West,56,Female,Email Campaign,Ahmedabad
+CUST0351,Vivaan Chopra,North,39,Female,Referral,Delhi
+CUST0352,Ananya Joshi,South,34,Female,Social Media,Kochi
+CUST0353,Suresh Bose,North,51,Male,Email Campaign,Delhi
+CUST0354,Neha Menon,East,23,Female,Organic Search,Guwahati
+CUST0355,Priya Singh,South,63,Female,Referral,Hyderabad
+CUST0356,Vihaan Singh,West,23,Female,Social Media,Pune
+CUST0357,Vihaan Iyer,South,51,Female,Email Campaign,Hyderabad
+CUST0358,Pooja Iyer,North,18,Male,Referral,Lucknow
+CUST0359,Manish Mukherjee,North,27,Male,Paid Ads,Chandigarh
+CUST0360,Tara Reddy,South,38,Female,Referral,Bengaluru
+CUST0361,Saanvi Kumar,West,22,Female,Organic Search,Surat
+CUST0362,Karthik Rao,West,19,Female,Referral,Surat
+CUST0363,Aarav Reddy,West,39,Male,Email Campaign,Mumbai
+CUST0364,Diya Malhotra,North,19,Female,Email Campaign,Delhi
+CUST0365,Sneha Das,South,27,Female,Referral,Hyderabad
+CUST0366,Kavya Chopra,East,51,Female,Email Campaign,Patna
+CUST0367,Manish Patel,North,33,Male,Paid Ads,Delhi
+CUST0368,Deepak Kapoor,West,56,Female,Referral,Ahmedabad
+CUST0369,Karthik Kapoor,South,39,Female,Paid Ads,Bengaluru
+CUST0370,Sanjay Menon,West,29,Male,Paid Ads,Surat
+CUST0371,Riya Nair,East,41,Female,Social Media,Bhubaneswar
+CUST0372,Aarav Singh,West,64,Female,Referral,Surat
+CUST0373,Divya Desai,West,57,Female,Email Campaign,Mumbai
+CUST0374,Meera Kapoor,East,55,Male,Paid Ads,Kolkata
+CUST0375,Karthik Malhotra,South,27,Male,Social Media,Bengaluru
+CUST0376,Deepak Malhotra,North,52,Male,Referral,Lucknow
+CUST0377,Vikram Verma,South,49,Male,Referral,Kochi
+CUST0378,Deepak Malhotra,East,24,Male,Organic Search,Patna
+CUST0379,Reyansh Iyer,West,38,Female,Organic Search,Mumbai
+CUST0380,Suresh Malhotra,South,37,Male,Paid Ads,Chennai
+CUST0381,Saanvi Rao,North,43,Female,Organic Search,Lucknow
+CUST0382,Divya Joshi,East,21,Female,Paid Ads,Guwahati
+CUST0383,Meera Reddy,South,63,Female,Email Campaign,Hyderabad
+CUST0384,Naveen Kumar,North,39,Female,Paid Ads,Jaipur
+CUST0385,Nisha Das,East,32,Female,Organic Search,Guwahati
+CUST0386,Nisha Pillai,North,57,Female,Email Campaign,Lucknow
+CUST0387,Anil Das,East,38,Male,Organic Search,Patna
+CUST0388,Isha Desai,West,32,Male,Paid Ads,Ahmedabad
+CUST0389,Anil Nair,South,39,Female,Social Media,Hyderabad
+CUST0390,Rohan Iyer,North,45,Female,Referral,Delhi
+CUST0391,Saanvi Kapoor,East,31,Male,Organic Search,Kolkata
+CUST0392,Kiran Kapoor,North,44,Female,Paid Ads,Lucknow
+CUST0393,Karthik Verma,North,58,Female,Email Campaign,Lucknow
+CUST0394,Krishna Singh,South,57,Male,Organic Search,Chennai
+CUST0395,Tara Kumar,West,45,Female,Organic Search,Surat
+CUST0396,Lakshmi Rao,North,43,Female,Referral,Lucknow
+CUST0397,Deepak Verma,East,19,Male,Paid Ads,Patna
+CUST0398,Sai Reddy,East,42,Female,Social Media,Patna
+CUST0399,Shreya Rao,West,20,Male,Email Campaign,Pune
+CUST0400,Sai Bose,East,25,Female,Paid Ads,Bhubaneswar
+CUST0401,Vihaan Menon,West,61,Male,Email Campaign,Surat
+CUST0402,Sanjay Patel,East,50,Male,Organic Search,Guwahati
+CUST0403,Aditya Joshi,South,59,Female,Referral,Chennai
+CUST0404,Neha Singh,North,52,Female,Referral,Lucknow
+CUST0405,Lakshmi Nair,South,23,Male,Social Media,Kochi
+CUST0406,Vikram Rao,North,56,Male,Referral,Lucknow
+CUST0407,Vivaan Desai,North,40,Female,Organic Search,Delhi
+CUST0408,Naveen Menon,North,42,Male,Social Media,Delhi
+CUST0409,Vihaan Kapoor,South,60,Male,Paid Ads,Chennai
+CUST0410,Sai Das,North,36,Male,Referral,Chandigarh
+CUST0411,Sanjay Rao,South,22,Male,Social Media,Hyderabad
+CUST0412,Vivaan Kapoor,West,28,Female,Organic Search,Mumbai
+CUST0413,Ananya Singh,East,29,Female,Email Campaign,Bhubaneswar
+CUST0414,Deepak Joshi,East,27,Male,Email Campaign,Patna
+CUST0415,Arjun Rao,North,25,Female,Organic Search,Chandigarh
+CUST0416,Deepak Nair,South,41,Male,Organic Search,Chennai
+CUST0417,Tara Desai,East,45,Female,Email Campaign,Kolkata
+CUST0418,Shreya Desai,South,58,Female,Social Media,Kochi
+CUST0419,Diya Kapoor,South,53,Male,Email Campaign,Hyderabad
+CUST0420,Aarav Malhotra,North,54,Female,Organic Search,Delhi
+CUST0421,Manisha Reddy,East,38,Female,Referral,Guwahati
+CUST0422,Ananya Nair,North,25,Male,Paid Ads,Lucknow
+CUST0423,Isha Menon,North,26,Male,Referral,Delhi
+CUST0424,Aditya Sharma,East,64,Male,Referral,Guwahati
+CUST0425,Sai Mukherjee,East,32,Female,Organic Search,Guwahati
+CUST0426,Rohan Reddy,West,63,Female,Email Campaign,Ahmedabad
+CUST0427,Suresh Kumar,West,57,Female,Social Media,Surat
+CUST0428,Vivaan Chopra,South,35,Female,Referral,Hyderabad
+CUST0429,Swati Verma,East,59,Female,Email Campaign,Bhubaneswar
+CUST0430,Zara Sharma,West,37,Female,Social Media,Ahmedabad
+CUST0431,Lakshmi Patel,South,23,Female,Referral,Bengaluru
+CUST0432,Riya Patel,South,29,Male,Social Media,Kochi
+CUST0433,Ananya Kapoor,South,19,Female,Email Campaign,Hyderabad
+CUST0434,Vikram Rao,West,24,Female,Paid Ads,Mumbai
+CUST0435,Divya Das,East,33,Male,Email Campaign,Patna
+CUST0436,Arjun Pillai,North,20,Female,Organic Search,Chandigarh
+CUST0437,Kavya Menon,South,62,Male,Social Media,Kochi
+CUST0438,Ishaan Verma,West,20,Male,Paid Ads,Ahmedabad
+CUST0439,Diya Iyer,West,44,Female,Social Media,Surat
+CUST0440,Divya Sharma,North,60,Male,Social Media,Chandigarh
+CUST0441,Swati Singh,North,57,Male,Referral,Lucknow
+CUST0442,Ananya Patel,West,55,Male,Organic Search,Mumbai
+CUST0443,Lakshmi Malhotra,East,50,Female,Social Media,Bhubaneswar
+CUST0444,Sanjay Iyer,North,45,Male,Email Campaign,Chandigarh
+CUST0445,Rahul Reddy,West,18,Female,Email Campaign,Mumbai
+CUST0446,Arjun Joshi,North,25,Male,Referral,Lucknow
+CUST0447,Kavya Nair,East,54,Female,Organic Search,Kolkata
+CUST0448,Anil Chopra,South,49,Female,Organic Search,Chennai
+CUST0449,Anil Mukherjee,North,60,Male,Email Campaign,Chandigarh
+CUST0450,Swati Singh,East,54,Male,Paid Ads,Kolkata
+CUST0451,Nisha Singh,West,21,Male,Referral,Surat
+CUST0452,Kavya Joshi,North,47,Female,Referral,Chandigarh
+CUST0453,Manisha Sharma,North,23,Male,Email Campaign,Jaipur
+CUST0454,Suresh Kapoor,West,63,Male,Email Campaign,Mumbai
+CUST0455,Shreya Das,South,36,Male,Paid Ads,Kochi
+CUST0456,Shreya Kapoor,West,49,Male,Paid Ads,Ahmedabad
+CUST0457,Vivaan Malhotra,North,26,Male,Organic Search,Delhi
+CUST0458,Swati Singh,West,29,Female,Referral,Ahmedabad
+CUST0459,Nisha Joshi,East,28,Female,Referral,Guwahati
+CUST0460,Sai Rao,West,63,Male,Email Campaign,Ahmedabad
+CUST0461,Aditya Gupta,North,33,Female,Organic Search,Delhi
+CUST0462,Krishna Kumar,West,18,Male,Referral,Ahmedabad
+CUST0463,Meera Kapoor,South,62,Female,Organic Search,Kochi
+CUST0464,Ramesh Sharma,West,38,Female,Organic Search,Surat
+CUST0465,Sanjay Gupta,South,47,Female,Email Campaign,Kochi
+CUST0466,Manish Nair,East,30,Female,Organic Search,Kolkata
+CUST0467,Ramesh Rao,South,51,Male,Paid Ads,Kochi
+CUST0468,Shreya Reddy,West,21,Female,Paid Ads,Mumbai
+CUST0469,Manish Sharma,North,45,Female,Social Media,Lucknow
+CUST0470,Vihaan Verma,South,55,Male,Email Campaign,Kochi
+CUST0471,Rohan Reddy,East,48,Female,Social Media,Bhubaneswar
+CUST0472,Rohan Sharma,South,44,Male,Paid Ads,Bengaluru
+CUST0473,Manisha Chopra,South,22,Female,Social Media,Hyderabad
+CUST0474,Neha Kapoor,South,42,Male,Email Campaign,Bengaluru
+CUST0475,Kiran Chopra,East,20,Male,Email Campaign,Bhubaneswar
+CUST0476,Vikram Desai,West,50,Female,Organic Search,Mumbai
+CUST0477,Meera Singh,South,21,Female,Referral,Hyderabad
+CUST0478,Arjun Kapoor,South,42,Male,Organic Search,Chennai
+CUST0479,Vihaan Pillai,North,37,Male,Email Campaign,Delhi
+CUST0480,Vivaan Joshi,East,51,Female,Paid Ads,Guwahati
+CUST0481,Kiran Nair,South,43,Male,Paid Ads,Chennai
+CUST0482,Deepak Menon,East,22,Male,Organic Search,Patna
+CUST0483,Manish Reddy,South,52,Female,Email Campaign,Kochi
+CUST0484,Zara Menon,West,45,Female,Paid Ads,Surat
+CUST0485,Rohan Singh,West,46,Male,Email Campaign,Ahmedabad
+CUST0486,Manisha Rao,South,26,Female,Paid Ads,Chennai
+CUST0487,Krishna Kapoor,West,55,Female,Email Campaign,Mumbai
+CUST0488,Deepak Malhotra,South,23,Female,Social Media,Bengaluru
+CUST0489,Diya Chopra,West,36,Female,Email Campaign,Ahmedabad
+CUST0490,Swati Mukherjee,North,61,Male,Email Campaign,Lucknow
+CUST0491,Anil Sharma,North,28,Male,Organic Search,Jaipur
+CUST0492,Swati Menon,North,19,Male,Social Media,Jaipur
+CUST0493,Diya Pillai,East,64,Female,Referral,Guwahati
+CUST0494,Kiran Bose,East,61,Male,Organic Search,Patna
+CUST0495,Vihaan Reddy,North,61,Female,Referral,Chandigarh
+CUST0496,Lakshmi Singh,East,26,Male,Paid Ads,Guwahati
+CUST0497,Naveen Patel,West,38,Male,Referral,Ahmedabad
+CUST0498,Ramesh Malhotra,South,41,Female,Email Campaign,Bengaluru
+CUST0499,Swati Patel,South,51,Male,Referral,Hyderabad
+CUST0500,Karthik Menon,South,39,Male,Organic Search,Hyderabad
+CUST0501,Suresh Sharma,North,20,Female,Organic Search,Delhi
+CUST0502,Lakshmi Malhotra,East,29,Male,Referral,Guwahati
+CUST0503,Kiran Sharma,West,45,Female,Organic Search,Mumbai
+CUST0504,Swati Kapoor,West,47,Female,Organic Search,Surat
+CUST0505,Rahul Kapoor,North,43,Male,Referral,Jaipur
+CUST0506,Ishaan Patel,West,38,Female,Social Media,Ahmedabad
+CUST0507,Rohan Desai,West,45,Male,Social Media,Surat
+CUST0508,Deepak Patel,West,43,Male,Paid Ads,Ahmedabad
+CUST0509,Divya Desai,West,50,Male,Organic Search,Ahmedabad
+CUST0510,Anil Menon,East,38,Male,Referral,Guwahati
+CUST0511,Manisha Verma,West,52,Female,Organic Search,Ahmedabad
+CUST0512,Reyansh Mukherjee,South,51,Male,Email Campaign,Hyderabad
+CUST0513,Manish Verma,North,58,Female,Organic Search,Lucknow
+CUST0514,Manish Das,East,64,Female,Organic Search,Patna
+CUST0515,Vikram Gupta,West,35,Female,Social Media,Ahmedabad
+CUST0516,Sai Sharma,East,28,Male,Referral,Patna
+CUST0517,Ramesh Menon,West,40,Male,Organic Search,Pune
+CUST0518,Karthik Mukherjee,South,39,Female,Social Media,Hyderabad
+CUST0519,Rahul Das,North,34,Male,Paid Ads,Lucknow
+CUST0520,Reyansh Das,West,22,Male,Social Media,Pune
+CUST0521,Zara Patel,West,61,Male,Social Media,Pune
+CUST0522,Zara Singh,West,28,Male,Social Media,Ahmedabad
+CUST0523,Reyansh Sharma,West,47,Female,Organic Search,Ahmedabad
+CUST0524,Pooja Chopra,North,32,Male,Organic Search,Jaipur
+CUST0525,Sanjay Joshi,North,44,Male,Paid Ads,Chandigarh
+CUST0526,Tara Das,South,52,Male,Email Campaign,Bengaluru
+CUST0527,Ramesh Bose,North,50,Female,Email Campaign,Jaipur
+CUST0528,Swati Joshi,West,37,Female,Email Campaign,Pune
+CUST0529,Saanvi Sharma,South,33,Male,Paid Ads,Chennai
+CUST0530,Kavya Joshi,South,51,Female,Email Campaign,Bengaluru
+CUST0531,Vivaan Das,South,19,Female,Email Campaign,Kochi
+CUST0532,Sanjay Rao,West,52,Female,Social Media,Mumbai
+CUST0533,Vihaan Sharma,East,57,Female,Organic Search,Bhubaneswar
+CUST0534,Krishna Gupta,West,45,Male,Organic Search,Surat
+CUST0535,Aditya Kumar,North,64,Male,Social Media,Jaipur
+CUST0536,Rohan Joshi,North,56,Male,Social Media,Lucknow
+CUST0537,Sneha Sharma,West,23,Male,Social Media,Surat
+CUST0538,Suresh Mukherjee,West,26,Female,Organic Search,Pune
+CUST0539,Reyansh Singh,South,37,Male,Email Campaign,Hyderabad
+CUST0540,Aarav Iyer,West,18,Male,Social Media,Surat
+CUST0541,Vikram Singh,South,25,Female,Paid Ads,Hyderabad
+CUST0542,Lakshmi Iyer,North,40,Female,Social Media,Lucknow
+CUST0543,Shreya Kapoor,South,20,Male,Referral,Hyderabad
+CUST0544,Krishna Verma,West,21,Male,Social Media,Mumbai
+CUST0545,Divya Malhotra,North,42,Male,Organic Search,Jaipur
+CUST0546,Pooja Malhotra,East,64,Female,Social Media,Kolkata
+CUST0547,Priya Nair,South,55,Male,Referral,Kochi
+CUST0548,Lakshmi Malhotra,North,32,Male,Paid Ads,Chandigarh
+CUST0549,Neha Bose,South,38,Male,Email Campaign,Bengaluru
+CUST0550,Saanvi Gupta,North,52,Male,Social Media,Chandigarh
+CUST0551,Rohan Gupta,North,63,Female,Referral,Jaipur
+CUST0552,Shreya Joshi,South,31,Male,Referral,Hyderabad
+CUST0553,Tara Nair,East,53,Male,Paid Ads,Bhubaneswar
+CUST0554,Ramesh Mukherjee,North,29,Female,Organic Search,Delhi
+CUST0555,Vivaan Sharma,North,34,Female,Social Media,Delhi
+CUST0556,Arjun Desai,North,56,Male,Referral,Chandigarh
+CUST0557,Ananya Kumar,East,26,Female,Paid Ads,Kolkata
+CUST0558,Vivaan Iyer,East,52,Female,Email Campaign,Guwahati
+CUST0559,Suresh Pillai,West,30,Female,Referral,Surat
+CUST0560,Zara Reddy,South,32,Male,Paid Ads,Chennai
+CUST0561,Lakshmi Rao,East,35,Female,Organic Search,Kolkata
+CUST0562,Sanjay Patel,South,50,Male,Organic Search,Chennai
+CUST0563,Sneha Pillai,West,23,Male,Referral,Mumbai
+CUST0564,Divya Desai,South,44,Male,Referral,Bengaluru
+CUST0565,Karthik Pillai,East,40,Male,Social Media,Patna
+CUST0566,Vikram Das,South,44,Female,Paid Ads,Chennai
+CUST0567,Rohan Malhotra,East,51,Male,Referral,Guwahati
+CUST0568,Suresh Das,South,63,Male,Social Media,Bengaluru
+CUST0569,Riya Malhotra,East,55,Female,Social Media,Guwahati
+CUST0570,Ishaan Singh,East,31,Male,Referral,Bhubaneswar
+CUST0571,Vivaan Chopra,South,53,Male,Organic Search,Kochi
+CUST0572,Anil Gupta,West,25,Male,Paid Ads,Mumbai
+CUST0573,Ishaan Menon,North,52,Male,Paid Ads,Lucknow
+CUST0574,Vihaan Chopra,West,36,Male,Organic Search,Pune
+CUST0575,Sneha Reddy,South,47,Female,Referral,Bengaluru
+CUST0576,Ananya Rao,West,31,Male,Paid Ads,Ahmedabad
+CUST0577,Saanvi Kumar,East,37,Male,Referral,Guwahati
+CUST0578,Kiran Patel,North,42,Female,Referral,Chandigarh
+CUST0579,Manisha Verma,South,57,Female,Social Media,Chennai
+CUST0580,Riya Reddy,South,41,Male,Organic Search,Hyderabad
+CUST0581,Anil Rao,South,31,Female,Referral,Chennai
+CUST0582,Diya Kumar,North,43,Male,Email Campaign,Lucknow
+CUST0583,Karthik Rao,East,55,Male,Organic Search,Patna
+CUST0584,Manish Singh,South,40,Male,Paid Ads,Kochi
+CUST0585,Sneha Pillai,West,39,Male,Social Media,Ahmedabad
+CUST0586,Reyansh Kumar,South,36,Female,Paid Ads,Hyderabad
+CUST0587,Riya Malhotra,South,63,Male,Paid Ads,Chennai
+CUST0588,Vivaan Menon,South,20,Female,Organic Search,Bengaluru
+CUST0589,Aarav Joshi,South,59,Male,Paid Ads,Chennai
+CUST0590,Kiran Joshi,East,36,Female,Referral,Patna
+CUST0591,Deepak Menon,West,26,Female,Paid Ads,Mumbai
+CUST0592,Swati Menon,East,45,Female,Social Media,Bhubaneswar
+CUST0593,Kiran Das,West,37,Male,Social Media,Mumbai
+CUST0594,Nisha Singh,South,62,Female,Email Campaign,Kochi
+CUST0595,Divya Verma,North,24,Male,Social Media,Chandigarh
+CUST0596,Vikram Reddy,East,31,Female,Paid Ads,Patna
+CUST0597,Shreya Nair,North,26,Female,Social Media,Lucknow
+CUST0598,Zara Joshi,East,36,Female,Organic Search,Patna
+CUST0599,Divya Desai,South,64,Male,Social Media,Kochi
+CUST0600,Riya Chopra,East,31,Male,Referral,Kolkata
+CUST0601,Sneha Patel,South,55,Male,Organic Search,Hyderabad
+CUST0602,Deepak Verma,East,53,Male,Email Campaign,Guwahati
+CUST0603,Ishaan Patel,South,57,Female,Referral,Bengaluru
+CUST0604,Swati Das,South,34,Female,Paid Ads,Bengaluru
+CUST0605,Aarav Menon,West,47,Female,Paid Ads,Surat
+CUST0606,Swati Kumar,South,26,Male,Paid Ads,Chennai
+CUST0607,Anil Gupta,West,50,Female,Referral,Mumbai
+CUST0608,Divya Iyer,South,42,Female,Referral,Hyderabad
+CUST0609,Lakshmi Pillai,North,31,Female,Referral,Chandigarh
+CUST0610,Sanjay Rao,South,28,Female,Organic Search,Kochi
+CUST0611,Sneha Pillai,North,52,Male,Organic Search,Delhi
+CUST0612,Tara Reddy,North,58,Female,Paid Ads,Lucknow
+CUST0613,Riya Kumar,South,31,Male,Social Media,Bengaluru
+CUST0614,Diya Bose,North,47,Male,Paid Ads,Chandigarh
+CUST0615,Vikram Joshi,West,58,Male,Email Campaign,Ahmedabad
+CUST0616,Krishna Das,East,21,Female,Organic Search,Bhubaneswar
+CUST0617,Suresh Reddy,South,21,Female,Referral,Chennai
+CUST0618,Priya Rao,North,45,Female,Organic Search,Jaipur
+CUST0619,Krishna Mukherjee,South,25,Female,Referral,Bengaluru
+CUST0620,Anil Pillai,West,19,Male,Email Campaign,Surat
+CUST0621,Meera Patel,South,58,Male,Email Campaign,Bengaluru
+CUST0622,Deepak Kapoor,South,63,Male,Organic Search,Bengaluru
+CUST0623,Pooja Kumar,North,39,Male,Referral,Jaipur
+CUST0624,Priya Gupta,West,58,Male,Email Campaign,Ahmedabad
+CUST0625,Riya Gupta,East,33,Male,Paid Ads,Kolkata
+CUST0626,Kavya Kapoor,East,46,Male,Paid Ads,Patna
+CUST0627,Reyansh Patel,North,47,Female,Referral,Lucknow
+CUST0628,Krishna Mukherjee,South,29,Male,Organic Search,Bengaluru
+CUST0629,Suresh Mukherjee,North,52,Female,Email Campaign,Delhi
+CUST0630,Neha Desai,North,28,Female,Organic Search,Chandigarh
+CUST0631,Nisha Iyer,North,63,Male,Paid Ads,Delhi
+CUST0632,Saanvi Kumar,South,38,Male,Email Campaign,Chennai
+CUST0633,Nisha Das,West,38,Male,Organic Search,Pune
+CUST0634,Kavya Iyer,North,22,Male,Social Media,Chandigarh
+CUST0635,Sneha Iyer,South,37,Female,Referral,Chennai
+CUST0636,Lakshmi Menon,West,54,Male,Referral,Ahmedabad
+CUST0637,Swati Pillai,North,20,Male,Social Media,Jaipur
+CUST0638,Nisha Kapoor,East,61,Male,Paid Ads,Kolkata
+CUST0639,Vihaan Chopra,West,50,Female,Email Campaign,Pune
+CUST0640,Saanvi Sharma,North,26,Female,Referral,Chandigarh
+CUST0641,Priya Chopra,West,26,Female,Social Media,Ahmedabad
+CUST0642,Vivaan Iyer,West,21,Male,Social Media,Surat
+CUST0643,Sneha Chopra,West,52,Female,Paid Ads,Mumbai
+CUST0644,Isha Mukherjee,West,34,Female,Paid Ads,Mumbai
+CUST0645,Pooja Iyer,West,51,Female,Organic Search,Surat
+CUST0646,Nisha Malhotra,West,41,Female,Referral,Mumbai
+CUST0647,Ramesh Das,North,49,Male,Organic Search,Jaipur
+CUST0648,Ramesh Pillai,East,18,Female,Social Media,Patna
+CUST0649,Priya Pillai,South,25,Female,Email Campaign,Kochi
+CUST0650,Rohan Gupta,West,62,Male,Email Campaign,Mumbai
+CUST0651,Zara Reddy,South,40,Male,Paid Ads,Kochi
+CUST0652,Aarav Das,North,64,Female,Email Campaign,Lucknow
+CUST0653,Aditya Chopra,West,57,Male,Email Campaign,Pune
+CUST0654,Kavya Mukherjee,East,29,Female,Email Campaign,Patna
+CUST0655,Vihaan Mukherjee,South,29,Female,Social Media,Kochi
+CUST0656,Lakshmi Bose,West,63,Female,Email Campaign,Mumbai
+CUST0657,Aarav Malhotra,North,64,Male,Email Campaign,Lucknow
+CUST0658,Meera Patel,East,32,Female,Email Campaign,Patna
+CUST0659,Meera Das,South,58,Male,Organic Search,Bengaluru
+CUST0660,Vikram Nair,South,36,Male,Social Media,Chennai
+CUST0661,Diya Reddy,West,43,Male,Paid Ads,Mumbai
+CUST0662,Lakshmi Menon,East,46,Female,Organic Search,Bhubaneswar
+CUST0663,Sai Gupta,East,39,Male,Referral,Guwahati
+CUST0664,Vikram Menon,East,57,Female,Social Media,Kolkata
+CUST0665,Isha Verma,East,38,Female,Social Media,Guwahati
+CUST0666,Anil Gupta,North,55,Female,Referral,Lucknow
+CUST0667,Vihaan Singh,East,37,Female,Referral,Guwahati
+CUST0668,Zara Joshi,South,46,Male,Referral,Bengaluru
+CUST0669,Rohan Menon,South,21,Female,Paid Ads,Kochi
+CUST0670,Sneha Patel,North,24,Male,Email Campaign,Lucknow
+CUST0671,Aditya Rao,South,45,Female,Social Media,Hyderabad
+CUST0672,Arjun Reddy,South,45,Male,Email Campaign,Hyderabad
+CUST0673,Suresh Das,East,21,Male,Email Campaign,Guwahati
+CUST0674,Ishaan Iyer,South,39,Female,Referral,Bengaluru
+CUST0675,Zara Das,North,29,Male,Paid Ads,Delhi
+CUST0676,Divya Mukherjee,East,62,Male,Organic Search,Patna
+CUST0677,Saanvi Das,West,20,Female,Paid Ads,Surat
+CUST0678,Vikram Iyer,East,39,Female,Email Campaign,Guwahati
+CUST0679,Pooja Iyer,North,61,Female,Paid Ads,Delhi
+CUST0680,Manisha Chopra,East,19,Male,Referral,Guwahati
+CUST0681,Anil Patel,East,41,Female,Organic Search,Bhubaneswar
+CUST0682,Vihaan Malhotra,North,51,Male,Referral,Lucknow
+CUST0683,Lakshmi Verma,East,44,Female,Organic Search,Bhubaneswar
+CUST0684,Ananya Patel,North,58,Female,Email Campaign,Lucknow
+CUST0685,Aditya Patel,North,18,Female,Organic Search,Lucknow
+CUST0686,Aditya Verma,West,25,Male,Organic Search,Surat
+CUST0687,Diya Kumar,South,40,Male,Organic Search,Chennai
+CUST0688,Ishaan Kapoor,South,55,Male,Paid Ads,Chennai
+CUST0689,Swati Reddy,East,23,Male,Paid Ads,Bhubaneswar
+CUST0690,Ananya Verma,East,39,Male,Email Campaign,Guwahati
+CUST0691,Vikram Kapoor,West,42,Female,Organic Search,Pune
+CUST0692,Manisha Singh,West,35,Male,Social Media,Pune
+CUST0693,Arjun Bose,West,34,Female,Email Campaign,Surat
+CUST0694,Deepak Mukherjee,North,29,Male,Organic Search,Lucknow
+CUST0695,Sai Reddy,West,23,Female,Organic Search,Mumbai
+CUST0696,Isha Reddy,West,43,Female,Paid Ads,Surat
+CUST0697,Isha Das,East,44,Male,Email Campaign,Patna
+CUST0698,Swati Chopra,West,25,Male,Organic Search,Pune
+CUST0699,Pooja Joshi,North,36,Female,Organic Search,Chandigarh
+CUST0700,Aditya Singh,North,59,Male,Email Campaign,Lucknow
+CUST0701,Sneha Singh,East,18,Female,Social Media,Patna
+CUST0702,Manish Chopra,West,46,Female,Email Campaign,Surat
+CUST0703,Shreya Rao,West,62,Female,Email Campaign,Surat
+CUST0704,Vikram Joshi,North,52,Male,Social Media,Chandigarh
+CUST0705,Priya Singh,West,57,Female,Email Campaign,Surat
+CUST0706,Naveen Sharma,West,31,Female,Organic Search,Pune
+CUST0707,Isha Menon,West,52,Female,Email Campaign,Pune
+CUST0708,Anil Kumar,South,62,Male,Social Media,Chennai
+CUST0709,Kiran Rao,East,37,Female,Referral,Bhubaneswar
+CUST0710,Reyansh Reddy,South,30,Male,Email Campaign,Hyderabad
+CUST0711,Neha Kumar,East,55,Female,Paid Ads,Kolkata
+CUST0712,Rohan Menon,North,63,Male,Organic Search,Delhi
+CUST0713,Sanjay Gupta,West,25,Female,Organic Search,Ahmedabad
+CUST0714,Neha Mukherjee,East,60,Male,Paid Ads,Patna
+CUST0715,Kiran Verma,South,37,Female,Paid Ads,Bengaluru
+CUST0716,Kavya Chopra,West,50,Female,Email Campaign,Ahmedabad
+CUST0717,Ramesh Pillai,North,43,Female,Paid Ads,Chandigarh
+CUST0718,Nisha Verma,East,56,Male,Referral,Kolkata
+CUST0719,Pooja Chopra,East,38,Male,Social Media,Patna
+CUST0720,Manish Das,East,59,Female,Paid Ads,Patna
+CUST0721,Riya Singh,West,60,Male,Paid Ads,Surat
+CUST0722,Neha Verma,South,58,Female,Referral,Kochi
+CUST0723,Vikram Chopra,South,26,Female,Organic Search,Kochi
+CUST0724,Divya Bose,East,41,Female,Organic Search,Patna
+CUST0725,Sai Joshi,North,54,Male,Email Campaign,Lucknow
+CUST0726,Sanjay Gupta,North,58,Female,Referral,Delhi
+CUST0727,Rohan Patel,South,34,Female,Social Media,Bengaluru
+CUST0728,Pooja Verma,North,41,Male,Social Media,Lucknow
+CUST0729,Naveen Kapoor,South,38,Female,Referral,Bengaluru
+CUST0730,Sanjay Reddy,East,56,Male,Social Media,Kolkata
+CUST0731,Ramesh Nair,South,58,Male,Organic Search,Bengaluru
+CUST0732,Zara Nair,South,56,Male,Social Media,Chennai
+CUST0733,Vihaan Das,East,30,Male,Social Media,Patna
+CUST0734,Diya Das,North,28,Female,Referral,Delhi
+CUST0735,Rohan Sharma,South,63,Male,Referral,Bengaluru
+CUST0736,Karthik Mukherjee,South,36,Male,Social Media,Chennai
+CUST0737,Kavya Kapoor,East,28,Male,Paid Ads,Guwahati
+CUST0738,Ramesh Pillai,North,30,Female,Referral,Chandigarh
+CUST0739,Kiran Iyer,South,63,Female,Email Campaign,Bengaluru
+CUST0740,Diya Gupta,East,62,Male,Email Campaign,Bhubaneswar
+CUST0741,Ramesh Menon,South,18,Male,Organic Search,Hyderabad
+CUST0742,Shreya Rao,West,57,Female,Social Media,Mumbai
+CUST0743,Meera Joshi,East,61,Male,Paid Ads,Patna
+CUST0744,Ananya Verma,North,36,Male,Organic Search,Delhi
+CUST0745,Sneha Nair,North,29,Male,Social Media,Jaipur
+CUST0746,Riya Iyer,North,25,Female,Referral,Lucknow
+CUST0747,Isha Patel,North,25,Male,Email Campaign,Delhi
+CUST0748,Nisha Kapoor,South,62,Male,Paid Ads,Chennai
+CUST0749,Ramesh Menon,South,29,Male,Email Campaign,Hyderabad
+CUST0750,Pooja Verma,North,50,Female,Referral,Chandigarh
+CUST0751,Kavya Desai,North,62,Male,Social Media,Delhi
+CUST0752,Karthik Menon,North,43,Female,Referral,Lucknow
+CUST0753,Manish Iyer,South,56,Male,Referral,Bengaluru
+CUST0754,Riya Pillai,North,45,Male,Email Campaign,Jaipur
+CUST0755,Naveen Kapoor,North,22,Female,Paid Ads,Lucknow
+CUST0756,Priya Reddy,West,25,Male,Referral,Mumbai
+CUST0757,Zara Rao,West,42,Female,Email Campaign,Surat
+CUST0758,Tara Reddy,North,44,Female,Paid Ads,Chandigarh
+CUST0759,Aditya Sharma,East,63,Female,Social Media,Patna
+CUST0760,Manisha Kapoor,North,40,Male,Social Media,Lucknow
+CUST0761,Sneha Iyer,West,47,Female,Organic Search,Ahmedabad
+CUST0762,Anil Pillai,East,62,Male,Email Campaign,Bhubaneswar
+CUST0763,Saanvi Kapoor,East,64,Female,Paid Ads,Patna
+CUST0764,Priya Singh,North,40,Female,Referral,Jaipur
+CUST0765,Anil Das,West,64,Female,Social Media,Pune
+CUST0766,Ramesh Singh,West,37,Male,Paid Ads,Mumbai
+CUST0767,Meera Malhotra,East,35,Female,Email Campaign,Patna
+CUST0768,Reyansh Iyer,North,35,Male,Organic Search,Delhi
+CUST0769,Ramesh Pillai,South,19,Female,Social Media,Kochi
+CUST0770,Vikram Iyer,South,21,Male,Paid Ads,Hyderabad
+CUST0771,Zara Malhotra,West,47,Male,Paid Ads,Ahmedabad
+CUST0772,Meera Malhotra,South,50,Female,Paid Ads,Bengaluru
+CUST0773,Reyansh Das,West,53,Female,Email Campaign,Ahmedabad
+CUST0774,Zara Nair,West,35,Male,Email Campaign,Surat
+CUST0775,Ishaan Rao,West,54,Female,Email Campaign,Ahmedabad
+CUST0776,Karthik Verma,South,36,Male,Referral,Bengaluru
+CUST0777,Vikram Singh,West,64,Male,Paid Ads,Surat
+CUST0778,Ananya Chopra,East,45,Male,Social Media,Kolkata
+CUST0779,Riya Singh,North,57,Male,Email Campaign,Chandigarh
+CUST0780,Rahul Mukherjee,North,37,Male,Email Campaign,Delhi
+CUST0781,Sanjay Mukherjee,West,50,Female,Paid Ads,Surat
+CUST0782,Neha Rao,North,29,Male,Email Campaign,Chandigarh
+CUST0783,Pooja Menon,South,32,Male,Referral,Bengaluru
+CUST0784,Anil Sharma,South,58,Female,Referral,Kochi
+CUST0785,Manisha Patel,North,56,Male,Email Campaign,Lucknow
+CUST0786,Krishna Menon,South,19,Male,Paid Ads,Bengaluru
+CUST0787,Karthik Joshi,North,46,Female,Paid Ads,Chandigarh
+CUST0788,Vikram Patel,North,58,Female,Paid Ads,Delhi
+CUST0789,Riya Pillai,North,27,Female,Organic Search,Lucknow
+CUST0790,Pooja Kapoor,West,19,Female,Email Campaign,Mumbai
+CUST0791,Priya Desai,North,28,Female,Paid Ads,Delhi
+CUST0792,Shreya Kumar,West,30,Male,Referral,Ahmedabad
+CUST0793,Swati Mukherjee,North,27,Female,Social Media,Lucknow
+CUST0794,Shreya Verma,North,31,Male,Social Media,Jaipur
+CUST0795,Shreya Sharma,North,35,Female,Paid Ads,Lucknow
+CUST0796,Isha Sharma,South,26,Male,Social Media,Bengaluru
+CUST0797,Isha Desai,West,56,Female,Social Media,Ahmedabad
+CUST0798,Deepak Gupta,West,45,Male,Organic Search,Surat
+CUST0799,Vivaan Rao,North,20,Female,Referral,Jaipur
+CUST0800,Nisha Malhotra,North,37,Male,Referral,Jaipur
+CUST0801,Meera Verma,South,23,Female,Organic Search,Hyderabad
+CUST0802,Swati Menon,South,44,Female,Organic Search,Hyderabad
+CUST0803,Aditya Rao,South,19,Male,Social Media,Chennai
+CUST0804,Ishaan Rao,West,46,Female,Email Campaign,Mumbai
+CUST0805,Ishaan Gupta,West,55,Female,Social Media,Pune
+CUST0806,Neha Patel,West,20,Female,Organic Search,Mumbai
+CUST0807,Diya Singh,North,33,Male,Referral,Chandigarh
+CUST0808,Krishna Mukherjee,West,47,Male,Social Media,Surat
+CUST0809,Naveen Desai,East,57,Male,Email Campaign,Kolkata
+CUST0810,Reyansh Menon,East,19,Male,Social Media,Bhubaneswar
+CUST0811,Zara Bose,South,34,Female,Paid Ads,Chennai
+CUST0812,Vihaan Rao,West,58,Male,Social Media,Pune
+CUST0813,Karthik Iyer,East,29,Female,Organic Search,Kolkata
+CUST0814,Kavya Menon,South,52,Male,Referral,Kochi
+CUST0815,Saanvi Pillai,West,60,Female,Referral,Ahmedabad
+CUST0816,Suresh Pillai,North,18,Female,Organic Search,Chandigarh
+CUST0817,Isha Chopra,East,62,Female,Paid Ads,Bhubaneswar
+CUST0818,Tara Malhotra,North,32,Male,Organic Search,Lucknow
+CUST0819,Kiran Chopra,West,43,Male,Social Media,Pune
+CUST0820,Krishna Joshi,East,54,Male,Organic Search,Bhubaneswar
+CUST0821,Saanvi Rao,West,38,Male,Organic Search,Ahmedabad
+CUST0822,Saanvi Joshi,North,48,Male,Paid Ads,Delhi
+CUST0823,Karthik Reddy,East,42,Male,Social Media,Bhubaneswar
+CUST0824,Pooja Patel,North,40,Male,Email Campaign,Lucknow
+CUST0825,Aditya Kumar,West,41,Female,Email Campaign,Ahmedabad
+CUST0826,Divya Kapoor,West,55,Male,Referral,Ahmedabad
+CUST0827,Shreya Gupta,North,45,Male,Organic Search,Chandigarh
+CUST0828,Diya Das,East,38,Male,Referral,Guwahati
+CUST0829,Sanjay Desai,North,60,Female,Paid Ads,Delhi
+CUST0830,Lakshmi Nair,West,35,Female,Email Campaign,Ahmedabad
+CUST0831,Naveen Pillai,North,53,Female,Organic Search,Lucknow
+CUST0832,Zara Mukherjee,West,52,Female,Paid Ads,Pune
+CUST0833,Pooja Patel,North,62,Male,Paid Ads,Jaipur
+CUST0834,Kiran Verma,East,26,Female,Organic Search,Bhubaneswar
+CUST0835,Kiran Verma,East,55,Male,Paid Ads,Patna
+CUST0836,Meera Verma,North,47,Male,Organic Search,Delhi
+CUST0837,Kiran Rao,North,61,Female,Organic Search,Delhi
+CUST0838,Nisha Kumar,East,51,Female,Social Media,Bhubaneswar
+CUST0839,Diya Iyer,West,49,Male,Referral,Ahmedabad
+CUST0840,Saanvi Singh,East,20,Female,Paid Ads,Guwahati
+CUST0841,Rahul Kapoor,West,20,Female,Paid Ads,Surat
+CUST0842,Shreya Iyer,North,45,Male,Social Media,Lucknow
+CUST0843,Deepak Singh,North,61,Male,Social Media,Chandigarh
+CUST0844,Kiran Bose,West,32,Male,Social Media,Surat
+CUST0845,Sanjay Kumar,North,58,Male,Email Campaign,Lucknow
+CUST0846,Kavya Malhotra,West,40,Male,Email Campaign,Surat
+CUST0847,Vivaan Reddy,South,57,Male,Email Campaign,Hyderabad
+CUST0848,Arjun Rao,East,28,Male,Organic Search,Kolkata
+CUST0849,Kavya Gupta,South,49,Female,Paid Ads,Hyderabad
+CUST0850,Anil Desai,West,53,Female,Referral,Mumbai

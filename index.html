@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kinetrexa Analytics — Sales & Customer Insights</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.4/chart.umd.min.js"></script>
+<style>
+  :root{
+    --bg:#0A0F1A;
+    --panel:#111A2C;
+    --panel-2:#0D1626;
+    --border:#1E2C45;
+    --text:#E7ECF3;
+    --muted:#8CA0BF;
+    --teal:#2DD4BF;
+    --amber:#F5A623;
+    --coral:#EF6461;
+    --violet:#8B7CF6;
+    --radius:14px;
+  }
+  *{box-sizing:border-box;}
+  html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;}
+  body{padding:28px 20px 60px;}
+  .wrap{max-width:1180px;margin:0 auto;}
+
+  /* Header */
+  header{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:16px;margin-bottom:22px;border-bottom:1px solid var(--border);padding-bottom:20px;}
+  .brand{display:flex;align-items:center;gap:12px;}
+  .brand-mark{width:38px;height:38px;border-radius:9px;background:linear-gradient(135deg,var(--teal),var(--violet));display:flex;align-items:center;justify-content:center;font-family:'Space Grotesk';font-weight:700;color:#08101F;font-size:18px;}
+  .brand-text h1{font-family:'Space Grotesk';font-size:19px;margin:0;font-weight:600;letter-spacing:.2px;}
+  .brand-text p{margin:2px 0 0;font-size:12.5px;color:var(--muted);}
+  .status{display:flex;align-items:center;gap:8px;font-family:'JetBrains Mono',monospace;font-size:12px;color:var(--teal);background:rgba(45,212,191,.08);border:1px solid rgba(45,212,191,.3);padding:6px 12px;border-radius:20px;}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--teal);box-shadow:0 0 8px var(--teal);animation:pulse 1.8s infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:.35;}}
+
+  /* Tabs */
+  .tabs{display:flex;gap:6px;margin-bottom:22px;background:var(--panel-2);padding:5px;border-radius:11px;border:1px solid var(--border);width:fit-content;}
+  .tab-btn{font-family:'JetBrains Mono',monospace;font-size:12.5px;padding:9px 18px;border-radius:8px;border:none;background:transparent;color:var(--muted);cursor:pointer;transition:all .15s ease;letter-spacing:.3px;}
+  .tab-btn.active{background:var(--panel);color:var(--teal);box-shadow:0 0 0 1px var(--border) inset;}
+  .tab-btn:hover:not(.active){color:var(--text);}
+
+  .view{display:none;}
+  .view.active{display:block;animation:fade .3s ease;}
+  @keyframes fade{from{opacity:0;transform:translateY(4px);}to{opacity:1;transform:translateY(0);}}
+
+  /* KPI strip */
+  .kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin-bottom:20px;}
+  .kpi{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;position:relative;overflow:hidden;}
+  .kpi::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--accent,var(--teal));}
+  .kpi .label{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.6px;margin-bottom:8px;}
+  .kpi .value{font-family:'JetBrains Mono',monospace;font-size:22px;font-weight:600;color:var(--text);}
+  .kpi .sub{font-size:11.5px;color:var(--muted);margin-top:5px;}
+
+  /* Panels */
+  .grid-2{display:grid;grid-template-columns:1.4fr 1fr;gap:14px;margin-bottom:14px;}
+  .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-bottom:14px;}
+  @media(max-width:860px){.grid-2,.grid-3{grid-template-columns:1fr;}}
+  .panel{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:18px 20px;}
+  .panel h3{font-family:'Space Grotesk';font-size:14px;margin:0 0 4px;font-weight:600;}
+  .panel .desc{font-size:12px;color:var(--muted);margin:0 0 14px;}
+  .chart-box{position:relative;height:270px;}
+  .chart-box.tall{height:330px;}
+
+  /* Segment cards */
+  .seg-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px;margin-bottom:14px;}
+  .seg-card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);padding:16px 18px;border-top:3px solid var(--c,var(--teal));}
+  .seg-card h4{margin:0 0 10px;font-family:'Space Grotesk';font-size:15px;}
+  .seg-row{display:flex;justify-content:space-between;font-size:12.5px;color:var(--muted);padding:4px 0;border-bottom:1px dashed var(--border);}
+  .seg-row span:last-child{color:var(--text);font-family:'JetBrains Mono',monospace;}
+  .seg-row:last-child{border-bottom:none;}
+
+  footer{margin-top:28px;padding-top:16px;border-top:1px solid var(--border);font-size:11.5px;color:var(--muted);display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;}
+  a{color:var(--teal);text-decoration:none;}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brand">
+      <div class="brand-mark">K</div>
+      <div class="brand-text">
+        <h1>Kinetrexa Analytics</h1>
+        <p>Data Analytics Internship — Sales &amp; Customer Insights Dashboard</p>
+      </div>
+    </div>
+    <div class="status"><span class="dot"></span>DATA REFRESHED · AUG 2026</div>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-view="sales">01 · SALES PERFORMANCE</button>
+    <button class="tab-btn" data-view="segments">02 · CUSTOMER SEGMENTATION</button>
+  </div>
+
+  <!-- ============ VIEW 1: SALES PERFORMANCE ============ -->
+  <section id="sales" class="view active">
+
+    <div class="kpi-grid" id="kpi-grid"></div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Monthly Revenue Trend</h3>
+        <p class="desc">Net revenue by month, Aug 2024 – Jul 2026</p>
+        <div class="chart-box tall"><canvas id="chartTrend"></canvas></div>
+      </div>
+      <div class="panel">
+        <h3>Revenue Share by Region</h3>
+        <p class="desc">Where demand is concentrated</p>
+        <div class="chart-box tall"><canvas id="chartRegion"></canvas></div>
+      </div>
+    </div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Revenue by Category</h3>
+        <p class="desc">Product category contribution</p>
+        <div class="chart-box"><canvas id="chartCategory"></canvas></div>
+      </div>
+      <div class="panel">
+        <h3>Top 10 Products</h3>
+        <p class="desc">Best-selling SKUs by net revenue</p>
+        <div class="chart-box"><canvas id="chartProducts"></canvas></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VIEW 2: CUSTOMER SEGMENTATION ============ -->
+  <section id="segments" class="view">
+
+    <div class="seg-grid" id="seg-grid"></div>
+
+    <div class="grid-2">
+      <div class="panel">
+        <h3>Revenue Contribution by Segment</h3>
+        <p class="desc">Where customer lifetime value concentrates</p>
+        <div class="chart-box tall"><canvas id="chartSegRevenue"></canvas></div>
+      </div>
+      <div class="panel">
+        <h3>Customer Count by Segment</h3>
+        <p class="desc">RFM-based segment sizes</p>
+        <div class="chart-box tall"><canvas id="chartSegCount"></canvas></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <h3>Segment Profile — Avg. Recency / Frequency / Monetary</h3>
+      <p class="desc">Lower recency = more recently active · Higher frequency &amp; monetary = higher value</p>
+      <div class="chart-box tall"><canvas id="chartSegProfile"></canvas></div>
+    </div>
+  </section>
+
+  <footer>
+    <span>Kinetrexa Software Pvt. Ltd. · Data Analytics Internship Project</span>
+    <span>Built with Chart.js · Data: synthetic e-commerce dataset (6,000+ orders)</span>
+  </footer>
+</div>
+
+<script>
+/* ---------------------------------------------------------------
+   Embedded dataset (exported from the Jupyter notebooks in /notebooks)
+--------------------------------------------------------------- */
+const KPIS = [
+  {label:"Total Revenue", value:"₹5.93 Cr", sub:"Aug 2024 – Jul 2026", accent:"var(--teal)"},
+  {label:"Total Orders", value:"5,755", sub:"Valid, non-returned", accent:"var(--violet)"},
+  {label:"Unique Customers", value:"777", sub:"Across 4 regions", accent:"var(--amber)"},
+  {label:"Avg Order Value", value:"₹10,297", sub:"Per order", accent:"var(--teal)"},
+  {label:"Return Rate", value:"4.08%", sub:"Of all orders", accent:"var(--coral)"},
+  {label:"Avg Rating", value:"3.9 / 5", sub:"Customer satisfaction", accent:"var(--amber)"},
+];
+
+const monthlyRevenue = [
+  ["2024-08",2168618],["2024-09",2048392],["2024-10",3782039],["2024-11",3664019],
+  ["2024-12",2311221],["2025-01",2963936],["2025-02",1599555],["2025-03",1919702],
+  ["2025-04",1727036],["2025-05",2153477],["2025-06",1883856],["2025-07",1874243],
+  ["2025-08",2364620],["2025-09",2314421],["2025-10",4751252],["2025-11",3628283],
+  ["2025-12",2572053],["2026-01",3179338],["2026-02",2197532],["2026-03",2087265],
+  ["2026-04",2079499],["2026-05",2277751],["2026-06",1848838],["2026-07",1863074],
+];
+
+const regionRevenue = [
+  ["North",17574099],["West",14453703],["South",13796185],["East",13436033],
+];
+
+const categoryRevenue = [
+  ["Electronics",36595797],["Home & Kitchen",10281254],["Sports & Fitness",5584528],
+  ["Fashion",4225946],["Beauty & Personal Care",2572494],
+];
+
+const topProducts = [
+  ["Laptop",8060339],["Wireless Earbuds",7445619],["Smartphone",7240474],
+  ["Bluetooth Speaker",7098493],["Smartwatch",6750873],["Non-Stick Cookware Set",2230738],
+  ["Air Fryer",2076473],["Mixer Grinder",2072929],["Vacuum Cleaner",1955013],["Water Purifier",1946101],
+].sort((a,b)=>a[1]-b[1]);
+
+const segments = [
+  {name:"Champions", customers:242, recency:56.8, frequency:15.3, monetary:164488, revenue:39806010, color:"var(--teal)"},
+  {name:"Loyal Customers", customers:284, recency:125.9, frequency:5.5, monetary:56381, revenue:16012162, color:"var(--violet)"},
+  {name:"At Risk", customers:160, recency:193.8, frequency:2.2, monetary:11982, revenue:1917176, color:"var(--coral)"},
+  {name:"Potential Loyalists", customers:91, recency:514.0, frequency:1.6, monetary:16755, revenue:1524671, color:"var(--amber)"},
+];
+
+/* ---------------------------------------------------------------
+   Theme helpers
+--------------------------------------------------------------- */
+const css = getComputedStyle(document.documentElement);
+const cvar = (name) => css.getPropertyValue(name).trim();
+const COLORS = {teal:cvar('--teal'), amber:cvar('--amber'), coral:cvar('--coral'), violet:cvar('--violet'), muted:cvar('--muted'), border:cvar('--border'), text:cvar('--text')};
+Chart.defaults.color = COLORS.muted;
+Chart.defaults.font.family = "'Inter', sans-serif";
+Chart.defaults.borderColor = COLORS.border;
+
+const fmtINR = (n) => "₹" + Intl.NumberFormat('en-IN', {maximumFractionDigits:0}).format(n);
+const fmtCr = (n) => "₹" + (n/10000000).toFixed(2) + " Cr";
+
+/* ---------------------------------------------------------------
+   KPI cards
+--------------------------------------------------------------- */
+const kpiGrid = document.getElementById('kpi-grid');
+KPIS.forEach(k=>{
+  const el = document.createElement('div');
+  el.className = 'kpi';
+  el.style.setProperty('--accent', k.accent);
+  el.innerHTML = `<div class="label">${k.label}</div><div class="value">${k.value}</div><div class="sub">${k.sub}</div>`;
+  kpiGrid.appendChild(el);
+});
+
+/* ---------------------------------------------------------------
+   Sales charts
+--------------------------------------------------------------- */
+new Chart(document.getElementById('chartTrend'), {
+  type:'line',
+  data:{ labels: monthlyRevenue.map(d=>d[0]),
+    datasets:[{ label:'Revenue', data: monthlyRevenue.map(d=>d[1]),
+      borderColor: COLORS.teal, backgroundColor:'rgba(45,212,191,.12)', fill:true, tension:.35, pointRadius:2, borderWidth:2 }]},
+  options:{ responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false}, tooltip:{callbacks:{label:(c)=>fmtINR(c.parsed.y)}} },
+    scales:{ y:{ ticks:{ callback:(v)=>fmtCr(v) } }, x:{ ticks:{ maxRotation:60, minRotation:60 } } } }
+});
+
+new Chart(document.getElementById('chartRegion'), {
+  type:'doughnut',
+  data:{ labels: regionRevenue.map(d=>d[0]),
+    datasets:[{ data: regionRevenue.map(d=>d[1]),
+      backgroundColor:[COLORS.teal, COLORS.violet, COLORS.amber, COLORS.coral], borderColor: cvar('--panel'), borderWidth:3 }]},
+  options:{ responsive:true, maintainAspectRatio:false, cutout:'62%',
+    plugins:{ legend:{position:'bottom', labels:{boxWidth:10, padding:14}}, tooltip:{callbacks:{label:(c)=>`${c.label}: ${fmtINR(c.parsed)}`}} } }
+});
+
+new Chart(document.getElementById('chartCategory'), {
+  type:'bar',
+  data:{ labels: categoryRevenue.map(d=>d[0]),
+    datasets:[{ data: categoryRevenue.map(d=>d[1]), backgroundColor: COLORS.violet, borderRadius:5, maxBarThickness:40 }]},
+  options:{ responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false}, tooltip:{callbacks:{label:(c)=>fmtINR(c.parsed.y)}} },
+    scales:{ y:{ ticks:{ callback:(v)=>fmtCr(v) } }, x:{ ticks:{ autoSkip:false, maxRotation:28, minRotation:28, font:{size:10.5} } } } }
+});
+
+new Chart(document.getElementById('chartProducts'), {
+  type:'bar',
+  data:{ labels: topProducts.map(d=>d[0]),
+    datasets:[{ data: topProducts.map(d=>d[1]), backgroundColor: COLORS.amber, borderRadius:5 }]},
+  options:{ indexAxis:'y', responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false}, tooltip:{callbacks:{label:(c)=>fmtINR(c.parsed.x)}} },
+    scales:{ x:{ ticks:{ callback:(v)=>fmtCr(v) } } } }
+});
+
+/* ---------------------------------------------------------------
+   Segment cards + charts
+--------------------------------------------------------------- */
+const segGrid = document.getElementById('seg-grid');
+segments.forEach(s=>{
+  const el = document.createElement('div');
+  el.className = 'seg-card';
+  el.style.setProperty('--c', s.color);
+  el.innerHTML = `
+    <h4>${s.name}</h4>
+    <div class="seg-row"><span>Customers</span><span>${s.customers}</span></div>
+    <div class="seg-row"><span>Avg Recency</span><span>${s.recency} days</span></div>
+    <div class="seg-row"><span>Avg Frequency</span><span>${s.frequency} orders</span></div>
+    <div class="seg-row"><span>Avg Monetary</span><span>${fmtINR(s.monetary)}</span></div>
+    <div class="seg-row"><span>Total Revenue</span><span>${fmtCr(s.revenue)}</span></div>`;
+  segGrid.appendChild(el);
+});
+
+new Chart(document.getElementById('chartSegRevenue'), {
+  type:'doughnut',
+  data:{ labels: segments.map(s=>s.name),
+    datasets:[{ data: segments.map(s=>s.revenue), backgroundColor:[COLORS.teal, COLORS.violet, COLORS.coral, COLORS.amber], borderColor: cvar('--panel'), borderWidth:3 }]},
+  options:{ responsive:true, maintainAspectRatio:false, cutout:'62%',
+    plugins:{ legend:{position:'bottom', labels:{boxWidth:10,padding:14}}, tooltip:{callbacks:{label:(c)=>`${c.label}: ${fmtINR(c.parsed)}`}} } }
+});
+
+new Chart(document.getElementById('chartSegCount'), {
+  type:'bar',
+  data:{ labels: segments.map(s=>s.name),
+    datasets:[{ data: segments.map(s=>s.customers), backgroundColor:[COLORS.teal, COLORS.violet, COLORS.coral, COLORS.amber], borderRadius:6, maxBarThickness:55 }]},
+  options:{ responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{display:false} },
+    scales:{ x:{ ticks:{font:{size:10.5}} } } }
+});
+
+new Chart(document.getElementById('chartSegProfile'), {
+  type:'bar',
+  data:{ labels: segments.map(s=>s.name),
+    datasets:[
+      { label:'Avg Frequency (orders)', data: segments.map(s=>s.frequency), backgroundColor: COLORS.teal, borderRadius:5 },
+      { label:'Avg Recency (÷10 days)', data: segments.map(s=>+(s.recency/10).toFixed(1)), backgroundColor: COLORS.coral, borderRadius:5 },
+    ]},
+  options:{ responsive:true, maintainAspectRatio:false,
+    plugins:{ legend:{position:'bottom', labels:{boxWidth:10,padding:14}} } }
+});
+
+/* ---------------------------------------------------------------
+   Tabs
+--------------------------------------------------------------- */
+document.querySelectorAll('.tab-btn').forEach(btn=>{
+  btn.addEventListener('click', ()=>{
+    document.querySelectorAll('.tab-btn').forEach(b=>b.classList.remove('active'));
+    document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.view).classList.add('active');
+  });
+});
+</script>
+</body>
+</html>
